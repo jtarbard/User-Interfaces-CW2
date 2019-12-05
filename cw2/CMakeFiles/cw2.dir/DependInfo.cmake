@@ -4,10 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sc18jt/CLionProjects/cw2/cw2_autogen/mocs_compilation.cpp" "/home/sc18jt/CLionProjects/cw2/CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o"
-  "/home/sc18jt/CLionProjects/cw2/the_button.cpp" "/home/sc18jt/CLionProjects/cw2/CMakeFiles/cw2.dir/the_button.cpp.o"
-  "/home/sc18jt/CLionProjects/cw2/the_player.cpp" "/home/sc18jt/CLionProjects/cw2/CMakeFiles/cw2.dir/the_player.cpp.o"
-  "/home/sc18jt/CLionProjects/cw2/tomeo.cpp" "/home/sc18jt/CLionProjects/cw2/CMakeFiles/cw2.dir/tomeo.cpp.o"
+  "/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/HomePage.cpp" "/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/CMakeFiles/cw2.dir/HomePage.cpp.o"
+  "/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/MainWindow.cpp" "/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/CMakeFiles/cw2.dir/MainWindow.cpp.o"
+  "/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/cw2_autogen/mocs_compilation.cpp" "/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o"
+  "/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/the_button.cpp" "/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/CMakeFiles/cw2.dir/the_button.cpp.o"
+  "/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/the_player.cpp" "/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/CMakeFiles/cw2.dir/the_player.cpp.o"
+  "/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/tomeo.cpp" "/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/CMakeFiles/cw2.dir/tomeo.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,7 +20,6 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "QT_MULTIMEDIAWIDGETS_LIB"
   "QT_MULTIMEDIA_LIB"
   "QT_NETWORK_LIB"
-  "QT_NO_DEBUG"
   "QT_WIDGETS_LIB"
   "QT_XML_LIB"
   )
