@@ -25,6 +25,8 @@
 #include <QtCore/QDirIterator>
 #include "the_player.h"
 #include "the_button.h"
+#include "home_page.h"
+#include "main_window.h"
 
 
 using namespace std;
@@ -62,7 +64,7 @@ vector<TheButtonInfo> getInfoIn (string loc) {
 }
 
 
-int main(int argc, char *argv[]) {
+int toms_main(int argc, char *argv[]) {
 
     // let's just check that Qt is operational first
     cout << "Qt version: " << QT_VERSION_STR << endl;
@@ -126,6 +128,20 @@ int main(int argc, char *argv[]) {
     // showtime!
     window.show();
 
+    // wait for the app to terminate
+    return app.exec();
+}
+
+int main(int argc, char *argv[]) {
+    // create the Qt Application
+    QApplication app(argc, argv);
+
+    MainWindow* window = new MainWindow();
+    QRect w = window->rect();
+
+    HomePage* home = new HomePage();
+    window->setLayout(home->layout(w));
+    window->show();
     // wait for the app to terminate
     return app.exec();
 }

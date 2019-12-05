@@ -5,31 +5,31 @@
 		<Option title="cw2"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib64\;CMake Files\..\..\..\..\usr\lib64\cmake\;CMake Files\..\..\..\..\usr\lib64\cmake\Qt5\;CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Widgets\;CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Core\;CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Multimedia\;CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Network\;CMake Files\..\..\..\..\usr\lib64\cmake\Qt5MultimediaWidgets\;CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Xml\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\lib64\;CMake Files\..\..\..\..\..\..\usr\lib64\cmake\;CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5\;CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Core\;CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Multimedia\;CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Network\;CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5MultimediaWidgets\;CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Xml\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/sc18jt/CLionProjects/cw2"/>
+				<Option working_dir="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/home/sc18jt/CLionProjects/cw2/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/home/sc18jt/CLionProjects/cw2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/home/sc18jt/CLionProjects/cw2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/home/sc18jt/CLionProjects/cw2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/sc18jt/CLionProjects/cw2"/>
+				<Option working_dir="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/home/sc18jt/CLionProjects/cw2/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/home/sc18jt/CLionProjects/cw2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/home/sc18jt/CLionProjects/cw2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/home/sc18jt/CLionProjects/cw2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="cw2">
-				<Option output="/home/sc18jt/CLionProjects/cw2/cw2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sc18jt/CLionProjects/cw2"/>
+				<Option output="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/cw2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -37,13 +37,12 @@
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
-					<Add option="-DQT_NO_DEBUG"/>
 					<Add option="-DQT_MULTIMEDIA_LIB"/>
 					<Add option="-DQT_NETWORK_LIB"/>
 					<Add option="-DQT_MULTIMEDIAWIDGETS_LIB"/>
 					<Add option="-DQT_XML_LIB"/>
-					<Add directory="/home/sc18jt/CLionProjects/cw2/cw2_autogen/include"/>
-					<Add directory="/home/sc18jt/CLionProjects/cw2"/>
+					<Add directory="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/cw2_autogen/include"/>
+					<Add directory="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2"/>
 					<Add directory="/usr/include/qt5"/>
 					<Add directory="/usr/include/qt5/QtWidgets"/>
 					<Add directory="/usr/include/qt5/QtGui"/>
@@ -53,17 +52,23 @@
 					<Add directory="/usr/include/qt5/QtNetwork"/>
 					<Add directory="/usr/include/qt5/QtMultimediaWidgets"/>
 					<Add directory="/usr/include/qt5/QtXml"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/home/sc18jt/CLionProjects/cw2/Makefile&quot;  VERBOSE=1 cw2"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/home/sc18jt/CLionProjects/cw2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/home/sc18jt/CLionProjects/cw2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/home/sc18jt/CLionProjects/cw2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/Makefile&quot;  VERBOSE=1 cw2"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="cw2/fast">
-				<Option output="/home/sc18jt/CLionProjects/cw2/cw2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sc18jt/CLionProjects/cw2"/>
+				<Option output="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/cw2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -71,13 +76,12 @@
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
-					<Add option="-DQT_NO_DEBUG"/>
 					<Add option="-DQT_MULTIMEDIA_LIB"/>
 					<Add option="-DQT_NETWORK_LIB"/>
 					<Add option="-DQT_MULTIMEDIAWIDGETS_LIB"/>
 					<Add option="-DQT_XML_LIB"/>
-					<Add directory="/home/sc18jt/CLionProjects/cw2/cw2_autogen/include"/>
-					<Add directory="/home/sc18jt/CLionProjects/cw2"/>
+					<Add directory="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/cw2_autogen/include"/>
+					<Add directory="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2"/>
 					<Add directory="/usr/include/qt5"/>
 					<Add directory="/usr/include/qt5/QtWidgets"/>
 					<Add directory="/usr/include/qt5/QtGui"/>
@@ -87,226 +91,244 @@
 					<Add directory="/usr/include/qt5/QtNetwork"/>
 					<Add directory="/usr/include/qt5/QtMultimediaWidgets"/>
 					<Add directory="/usr/include/qt5/QtXml"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/home/sc18jt/CLionProjects/cw2/Makefile&quot;  VERBOSE=1 cw2/fast"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/home/sc18jt/CLionProjects/cw2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/home/sc18jt/CLionProjects/cw2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/home/sc18jt/CLionProjects/cw2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/Makefile&quot;  VERBOSE=1 cw2/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/sc18jt/CLionProjects/cw2"/>
+				<Option working_dir="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/home/sc18jt/CLionProjects/cw2/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/home/sc18jt/CLionProjects/cw2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/home/sc18jt/CLionProjects/cw2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/home/sc18jt/CLionProjects/cw2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="cw2_autogen">
-				<Option working_dir="/home/sc18jt/CLionProjects/cw2"/>
+				<Option working_dir="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/home/sc18jt/CLionProjects/cw2/Makefile&quot;  VERBOSE=1 cw2_autogen"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/home/sc18jt/CLionProjects/cw2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/home/sc18jt/CLionProjects/cw2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/home/sc18jt/CLionProjects/cw2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/Makefile&quot;  VERBOSE=1 cw2_autogen"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/cw2_autogen/mocs_compilation.cpp">
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/HomePage.cpp">
 			<Option target="cw2"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/the_button.cpp">
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/HomePage.h">
 			<Option target="cw2"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/the_button.h">
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/MainWindow.cpp">
 			<Option target="cw2"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/the_player.cpp">
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/MainWindow.h">
 			<Option target="cw2"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/the_player.h">
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/cw2_autogen/mocs_compilation.cpp">
 			<Option target="cw2"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/tomeo.cpp">
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/the_button.cpp">
 			<Option target="cw2"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/CMakeLists.txt">
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/the_button.h">
+			<Option target="cw2"/>
+		</Unit>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/the_player.cpp">
+			<Option target="cw2"/>
+		</Unit>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/the_player.h">
+			<Option target="cw2"/>
+		</Unit>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/tomeo.cpp">
+			<Option target="cw2"/>
+		</Unit>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5/Qt5Config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5/Qt5ConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5/Qt5ModuleLocation.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Gui/Qt5GuiConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Multimedia\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Multimedia\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Multimedia\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Multimedia\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Multimedia/Qt5Multimedia_CameraBinServicePlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Multimedia\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Multimedia/Qt5Multimedia_CameraBinServicePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Multimedia\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Multimedia/Qt5Multimedia_QAlsaPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Multimedia\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Multimedia/Qt5Multimedia_QAlsaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Multimedia\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Multimedia/Qt5Multimedia_QGstreamerAudioDecoderServicePlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Multimedia\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Multimedia/Qt5Multimedia_QGstreamerAudioDecoderServicePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Multimedia\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Multimedia/Qt5Multimedia_QGstreamerCaptureServicePlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Multimedia\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Multimedia/Qt5Multimedia_QGstreamerCaptureServicePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Multimedia\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Multimedia/Qt5Multimedia_QGstreamerPlayerServicePlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Multimedia\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Multimedia/Qt5Multimedia_QGstreamerPlayerServicePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Multimedia\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Multimedia/Qt5Multimedia_QM3uPlaylistPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Multimedia\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Multimedia/Qt5Multimedia_QM3uPlaylistPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Multimedia\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Multimedia/Qt5Multimedia_QPulseAudioPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Multimedia\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Multimedia/Qt5Multimedia_QPulseAudioPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Multimedia\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Network/Qt5NetworkConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Network\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Network\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Network\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Network\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Network\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Network\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Network\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Network\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Network\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Network\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5MultimediaWidgets/Qt5MultimediaWidgetsConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5MultimediaWidgets\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5MultimediaWidgets/Qt5MultimediaWidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5MultimediaWidgets\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5MultimediaWidgets/Qt5MultimediaWidgetsConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5MultimediaWidgets\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5MultimediaWidgets/Qt5MultimediaWidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5MultimediaWidgets\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Xml/Qt5XmlConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Xml\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Xml/Qt5XmlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Xml\"/>
 		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/cw2/../../../../usr/lib64/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Xml\"/>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/../../../../../../usr/lib64/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Xml\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
