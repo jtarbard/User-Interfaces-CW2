@@ -18,10 +18,17 @@ set(AM_QT_UIC_EXECUTABLE "/usr/lib64/qt5/bin/uic")
 set(AM_CMAKE_EXECUTABLE "/opt/clion-2019.2.5/bin/cmake/linux/bin/cmake")
 set(AM_SETTINGS_FILE "/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/CMakeFiles/cw2_autogen.dir/AutogenOldSettings.txt")
 set(AM_PARSE_CACHE_FILE "/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/CMakeFiles/cw2_autogen.dir/ParseCache.txt")
+<<<<<<< HEAD
+set(AM_HEADERS "/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/home_page.h;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/main_window.h;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/the_button.h;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/the_player.h")
+set(AM_HEADERS_FLAGS "MU;MU;MU;MU")
+set(AM_HEADERS_BUILD_PATHS "EWIEGA46WW/moc_home_page.cpp;EWIEGA46WW/moc_main_window.cpp;EWIEGA46WW/moc_the_button.cpp;EWIEGA46WW/moc_the_player.cpp")
+set(AM_SOURCES "/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/home_page.cpp;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/main_window.cpp;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/the_button.cpp;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/the_player.cpp;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/tomeo.cpp")
+=======
 set(AM_HEADERS "/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/HomePage.h;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/MainWindow.h;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/the_button.h;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/the_player.h")
 set(AM_HEADERS_FLAGS "MU;MU;MU;MU")
 set(AM_HEADERS_BUILD_PATHS "EWIEGA46WW/moc_HomePage.cpp;EWIEGA46WW/moc_MainWindow.cpp;EWIEGA46WW/moc_the_button.cpp;EWIEGA46WW/moc_the_player.cpp")
 set(AM_SOURCES "/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/HomePage.cpp;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/MainWindow.cpp;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/the_button.cpp;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/the_player.cpp;/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/tomeo.cpp")
+>>>>>>> development
 set(AM_SOURCES_FLAGS "MU;MU;MU;MU;MU")
 # MOC settings
 set(AM_MOC_SKIP "")

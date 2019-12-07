@@ -9,7 +9,7 @@ class HomePage: public QVBoxLayout{
 
 public:
     HomePage(){};
-    QVBoxLayout* layout(QRect w);
+    QGridLayout* layout(QRect w);
 };
 
 #endif //CW2_HOME_PAGE_H

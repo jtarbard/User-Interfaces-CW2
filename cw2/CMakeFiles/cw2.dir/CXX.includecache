@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
+/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/home_page.cpp
+=======
 /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/HomePage.cpp
+>>>>>>> development
 QtWidgets/QWidget
 -
 QtWidgets/QVBoxLayout
@@ -19,6 +23,16 @@ the_player.h
 /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/the_player.h
 the_button.h
 /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/the_button.h
+<<<<<<< HEAD
+main_window.h
+/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/main_window.h
+home_page.h
+/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/home_page.h
+
+/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/home_page.h
+
+/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/main_window.h
+=======
 MainWindow.h
 /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/MainWindow.h
 HomePage.h
@@ -27,6 +41,7 @@ HomePage.h
 /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/HomePage.h
 
 /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/MainWindow.h
+>>>>>>> development
 QtWidgets/QMainWindow
 -
 
@@ -46,6 +61,8 @@ vector
 QTimer
 -
 
+<<<<<<< HEAD
+=======
 /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/tomeo.cpp
 iostream
 -
@@ -94,6 +111,7 @@ qdiriterator.h
 qfileinfo.h
 /usr/include/qt5/QtCore/qfileinfo.h
 
+>>>>>>> development
 /usr/include/qt5/QtCore/QSharedDataPointer
 qshareddata.h
 /usr/include/qt5/QtCore/qshareddata.h
@@ -284,28 +302,8 @@ map
 utility
 -
 
-/usr/include/qt5/QtCore/qdir.h
-QtCore/qstring.h
--
-QtCore/qfileinfo.h
--
-QtCore/qstringlist.h
--
-QtCore/qshareddata.h
--
-
-/usr/include/qt5/QtCore/qdiriterator.h
-QtCore/qdir.h
--
-
 /usr/include/qt5/QtCore/qeventloop.h
 QtCore/qobject.h
--
-
-/usr/include/qt5/QtCore/qfactoryinterface.h
-QtCore/qobject.h
--
-QtCore/qstringlist.h
 -
 
 /usr/include/qt5/QtCore/qfile.h
@@ -320,16 +318,6 @@ stdio.h
 QtCore/qiodevice.h
 -
 QtCore/qstring.h
--
-
-/usr/include/qt5/QtCore/qfileinfo.h
-QtCore/qfile.h
--
-QtCore/qlist.h
--
-QtCore/qshareddata.h
--
-QtCore/qmetatype.h
 -
 
 /usr/include/qt5/QtCore/qflags.h
@@ -430,22 +418,6 @@ QtCore/qstring.h
 
 /usr/include/qt5/QtCore/qiterator.h
 QtCore/qglobal.h
--
-
-/usr/include/qt5/QtCore/qjsonobject.h
-QtCore/qjsonvalue.h
--
-QtCore/qiterator.h
--
-QtCore/qpair.h
--
-initializer_list
--
-
-/usr/include/qt5/QtCore/qjsonvalue.h
-QtCore/qglobal.h
--
-QtCore/qstring.h
 -
 
 /usr/include/qt5/QtCore/qline.h
@@ -604,22 +576,8 @@ QtCore/qnamespace.h
 QtCore/qglobal.h
 -
 
-/usr/include/qt5/QtCore/qplugin.h
-QtCore/qobject.h
--
-QtCore/qpointer.h
--
-QtCore/qjsonobject.h
--
-
 /usr/include/qt5/QtCore/qpoint.h
 QtCore/qnamespace.h
--
-
-/usr/include/qt5/QtCore/qpointer.h
-QtCore/qsharedpointer.h
--
-QtCore/qtypeinfo.h
 -
 
 /usr/include/qt5/QtCore/qprocessordetection.h
@@ -880,10 +838,6 @@ QtCore/qpoint.h
 QtCore/qglobal.h
 -
 
-/usr/include/qt5/QtGui/QImageReader
-qimagereader.h
-/usr/include/qt5/QtGui/qimagereader.h
-
 /usr/include/qt5/QtGui/qbrush.h
 QtGui/qtguiglobal.h
 -
@@ -1032,30 +986,6 @@ QtCore/qrect.h
 QtCore/qstring.h
 -
 QtCore/qstringlist.h
--
-
-/usr/include/qt5/QtGui/qimageiohandler.h
-QtGui/qtguiglobal.h
--
-QtCore/qiodevice.h
--
-QtCore/qplugin.h
--
-QtCore/qfactoryinterface.h
--
-QtCore/qscopedpointer.h
--
-
-/usr/include/qt5/QtGui/qimagereader.h
-QtGui/qtguiglobal.h
--
-QtCore/qbytearray.h
--
-QtCore/qcoreapplication.h
--
-QtGui/qimage.h
--
-QtGui/qimageiohandler.h
 -
 
 /usr/include/qt5/QtGui/qinputmethod.h
@@ -1286,20 +1216,12 @@ QtGui/qtguiglobal.h
 qmediaplayer.h
 /usr/include/qt5/QtMultimedia/qmediaplayer.h
 
-/usr/include/qt5/QtMultimedia/QMediaPlaylist
-qmediaplaylist.h
-/usr/include/qt5/QtMultimedia/qmediaplaylist.h
-
 /usr/include/qt5/QtMultimedia/qaudio.h
 QtMultimedia/qtmultimediaglobal.h
 -
 QtMultimedia/qmultimedia.h
 -
 QtCore/qmetatype.h
--
-
-/usr/include/qt5/QtMultimedia/qmediabindableinterface.h
-QtMultimedia/qmediaobject.h
 -
 
 /usr/include/qt5/QtMultimedia/qmediacontent.h
@@ -1340,18 +1262,6 @@ QtMultimedia/qaudio.h
 QtNetwork/qnetworkconfiguration.h
 -
 
-/usr/include/qt5/QtMultimedia/qmediaplaylist.h
-QtCore/qobject.h
--
-QtMultimedia/qmediacontent.h
--
-QtMultimedia/qmediaobject.h
--
-QtMultimedia/qmediabindableinterface.h
--
-QtMultimedia/qmediaenumdebug.h
--
-
 /usr/include/qt5/QtMultimedia/qmediaresource.h
 QtCore/qmap.h
 -
@@ -1378,22 +1288,6 @@ QtMultimedia/qtmultimediaglobal.h
 QtGui/qtguiglobal.h
 -
 QtMultimedia/qtmultimedia-config.h
--
-
-/usr/include/qt5/QtMultimediaWidgets/QVideoWidget
-qvideowidget.h
-/usr/include/qt5/QtMultimediaWidgets/qvideowidget.h
-
-/usr/include/qt5/QtMultimediaWidgets/qtmultimediawidgetdefs.h
-QtCore/qglobal.h
--
-
-/usr/include/qt5/QtMultimediaWidgets/qvideowidget.h
-QtWidgets/qwidget.h
--
-QtMultimediaWidgets/qtmultimediawidgetdefs.h
--
-QtMultimedia/qmediabindableinterface.h
 -
 
 /usr/include/qt5/QtNetwork/qnetworkconfiguration.h
@@ -1432,13 +1326,17 @@ QtNetwork/qtnetwork-config.h
 qapplication.h
 /usr/include/qt5/QtWidgets/qapplication.h
 
-/usr/include/qt5/QtWidgets/QFileIconProvider
-qfileiconprovider.h
-/usr/include/qt5/QtWidgets/qfileiconprovider.h
+/usr/include/qt5/QtWidgets/QLabel
+qlabel.h
+/usr/include/qt5/QtWidgets/qlabel.h
 
-/usr/include/qt5/QtWidgets/QHBoxLayout
-qboxlayout.h
-/usr/include/qt5/QtWidgets/qboxlayout.h
+/usr/include/qt5/QtWidgets/QLineEdit
+qlineedit.h
+/usr/include/qt5/QtWidgets/qlineedit.h
+
+/usr/include/qt5/QtWidgets/QMainWindow
+qmainwindow.h
+/usr/include/qt5/QtWidgets/qmainwindow.h
 
 /usr/include/qt5/QtWidgets/QLabel
 qlabel.h
@@ -1508,14 +1406,10 @@ QtWidgets/qtwidgetsglobal.h
 QtWidgets/qwidget.h
 -
 
-/usr/include/qt5/QtWidgets/qfileiconprovider.h
+/usr/include/qt5/QtWidgets/qframe.h
 QtWidgets/qtwidgetsglobal.h
 -
-QtCore/qfileinfo.h
--
-QtCore/qscopedpointer.h
--
-QtGui/qicon.h
+QtWidgets/qwidget.h
 -
 
 /usr/include/qt5/QtWidgets/qframe.h

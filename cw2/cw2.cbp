@@ -126,19 +126,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/HomePage.cpp">
-			<Option target="cw2"/>
-		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/HomePage.h">
-			<Option target="cw2"/>
-		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/MainWindow.cpp">
-			<Option target="cw2"/>
-		</Unit>
-		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/MainWindow.h">
-			<Option target="cw2"/>
-		</Unit>
 		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/cw2_autogen/mocs_compilation.cpp">
+			<Option target="cw2"/>
+		</Unit>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/home_page.cpp">
+			<Option target="cw2"/>
+		</Unit>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/home_page.h">
+			<Option target="cw2"/>
+		</Unit>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/main_window.cpp">
+			<Option target="cw2"/>
+		</Unit>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/main_window.h">
 			<Option target="cw2"/>
 		</Unit>
 		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/the_button.cpp">
