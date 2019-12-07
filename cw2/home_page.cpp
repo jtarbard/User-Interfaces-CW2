@@ -18,14 +18,10 @@ QPushButton* movie_button;
 QPushButton* tv_button;
 QPushButton* favourites_button;
 
-QVBoxLayout* HomePage::layout(QRect w){
+QGridLayout* HomePage::layout(QRect w){
 
-    QVBoxLayout *home = new QVBoxLayout();
-
-    QGridLayout* top = new QGridLayout();
-    QGridLayout* bottom = new QGridLayout();
-    home->addLayout(top);
-    home->addLayout(bottom);
+    QGridLayout *home = new QGridLayout();
+    QFont font("Arial", 16);
 
     home_label = new QLabel("Home");
     search_edit = new QLineEdit();
@@ -34,17 +30,25 @@ QVBoxLayout* HomePage::layout(QRect w){
     favourites_button = new QPushButton("Favourites");
 
     //add widgets to the layout
-    top->addWidget(home_label, 0,0);
-    top->addWidget(search_edit, 0, 1);
-    bottom->addWidget(movie_button, 0,0);
-    bottom->addWidget(tv_button,0,1);
-    bottom->addWidget(favourites_button,0,2);
 
-    home_label->setMinimumSize(w.width() * 0.2, w.height() * 0.1);
-    search_edit->setMinimumSize(w.width() * 0.8, w.height() * 0.1);
-    movie_button->setMinimumSize(w.width() * 0.3, w.height() * 0.8);
-    tv_button->setMinimumSize(w.width() * 0.3, w.height() * 0.8);
-    favourites_button->setMinimumSize(w.width() * 0.3, w.height() * 0.8);
+    home->addWidget(home_label, 0,0,1,2);
+    home->addWidget(search_edit, 0, 2,1,5);
+    home->setRowMinimumHeight(0,w.width()*0.1);
+    home->addWidget(movie_button, 10,0,8,3);
+    home->addWidget(tv_button,10,3,8,3);
+    home->addWidget(favourites_button,10,6,8,3);
+
+    search_edit->setMaximumSize(w.width() * 5, w.height() * 0.1);
+
+    home_label->setFont(font);
+    movie_button->setFont(font);
+    tv_button->setFont(font);
+    favourites_button->setFont(font);
+
+    search_edit->setSizePolicy(QSizePolicy::Expanding,QSizePolicy::Expanding);
+    movie_button->setSizePolicy(QSizePolicy::Expanding,QSizePolicy::Expanding);
+    tv_button->setSizePolicy(QSizePolicy::Expanding,QSizePolicy::Expanding);
+    favourites_button->setSizePolicy(QSizePolicy::Expanding,QSizePolicy::Expanding);
 
     home_label->show();
     search_edit->show();

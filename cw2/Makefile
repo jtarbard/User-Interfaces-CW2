@@ -217,6 +217,60 @@ cw2_autogen/mocs_compilation.cpp.s:
 	$(MAKE) -f CMakeFiles/cw2.dir/build.make CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.s
 .PHONY : cw2_autogen/mocs_compilation.cpp.s
 
+home_page.o: home_page.cpp.o
+
+.PHONY : home_page.o
+
+# target to build an object file
+home_page.cpp.o:
+	$(MAKE) -f CMakeFiles/cw2.dir/build.make CMakeFiles/cw2.dir/home_page.cpp.o
+.PHONY : home_page.cpp.o
+
+home_page.i: home_page.cpp.i
+
+.PHONY : home_page.i
+
+# target to preprocess a source file
+home_page.cpp.i:
+	$(MAKE) -f CMakeFiles/cw2.dir/build.make CMakeFiles/cw2.dir/home_page.cpp.i
+.PHONY : home_page.cpp.i
+
+home_page.s: home_page.cpp.s
+
+.PHONY : home_page.s
+
+# target to generate assembly for a file
+home_page.cpp.s:
+	$(MAKE) -f CMakeFiles/cw2.dir/build.make CMakeFiles/cw2.dir/home_page.cpp.s
+.PHONY : home_page.cpp.s
+
+main_window.o: main_window.cpp.o
+
+.PHONY : main_window.o
+
+# target to build an object file
+main_window.cpp.o:
+	$(MAKE) -f CMakeFiles/cw2.dir/build.make CMakeFiles/cw2.dir/main_window.cpp.o
+.PHONY : main_window.cpp.o
+
+main_window.i: main_window.cpp.i
+
+.PHONY : main_window.i
+
+# target to preprocess a source file
+main_window.cpp.i:
+	$(MAKE) -f CMakeFiles/cw2.dir/build.make CMakeFiles/cw2.dir/main_window.cpp.i
+.PHONY : main_window.cpp.i
+
+main_window.s: main_window.cpp.s
+
+.PHONY : main_window.s
+
+# target to generate assembly for a file
+main_window.cpp.s:
+	$(MAKE) -f CMakeFiles/cw2.dir/build.make CMakeFiles/cw2.dir/main_window.cpp.s
+.PHONY : main_window.cpp.s
+
 the_button.o: the_button.cpp.o
 
 .PHONY : the_button.o
@@ -317,6 +371,12 @@ help:
 	@echo "... cw2_autogen/mocs_compilation.o"
 	@echo "... cw2_autogen/mocs_compilation.i"
 	@echo "... cw2_autogen/mocs_compilation.s"
+	@echo "... home_page.o"
+	@echo "... home_page.i"
+	@echo "... home_page.s"
+	@echo "... main_window.o"
+	@echo "... main_window.i"
+	@echo "... main_window.s"
 	@echo "... the_button.o"
 	@echo "... the_button.i"
 	@echo "... the_button.s"
