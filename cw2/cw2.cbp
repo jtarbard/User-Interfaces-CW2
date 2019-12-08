@@ -37,6 +37,7 @@
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
 					<Add option="-DQT_MULTIMEDIA_LIB"/>
 					<Add option="-DQT_NETWORK_LIB"/>
 					<Add option="-DQT_MULTIMEDIAWIDGETS_LIB"/>
@@ -76,6 +77,7 @@
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
 					<Add option="-DQT_MULTIMEDIA_LIB"/>
 					<Add option="-DQT_NETWORK_LIB"/>
 					<Add option="-DQT_MULTIMEDIAWIDGETS_LIB"/>
@@ -154,6 +156,12 @@
 			<Option target="cw2"/>
 		</Unit>
 		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/tomeo.cpp">
+			<Option target="cw2"/>
+		</Unit>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/tv_page.cpp">
+			<Option target="cw2"/>
+		</Unit>
+		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/tv_page.h">
 			<Option target="cw2"/>
 		</Unit>
 		<Unit filename="/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/CMakeLists.txt">

@@ -136,60 +136,6 @@ cw2_autogen/fast:
 	$(MAKE) -f CMakeFiles/cw2_autogen.dir/build.make CMakeFiles/cw2_autogen.dir/build
 .PHONY : cw2_autogen/fast
 
-HomePage.o: HomePage.cpp.o
-
-.PHONY : HomePage.o
-
-# target to build an object file
-HomePage.cpp.o:
-	$(MAKE) -f CMakeFiles/cw2.dir/build.make CMakeFiles/cw2.dir/HomePage.cpp.o
-.PHONY : HomePage.cpp.o
-
-HomePage.i: HomePage.cpp.i
-
-.PHONY : HomePage.i
-
-# target to preprocess a source file
-HomePage.cpp.i:
-	$(MAKE) -f CMakeFiles/cw2.dir/build.make CMakeFiles/cw2.dir/HomePage.cpp.i
-.PHONY : HomePage.cpp.i
-
-HomePage.s: HomePage.cpp.s
-
-.PHONY : HomePage.s
-
-# target to generate assembly for a file
-HomePage.cpp.s:
-	$(MAKE) -f CMakeFiles/cw2.dir/build.make CMakeFiles/cw2.dir/HomePage.cpp.s
-.PHONY : HomePage.cpp.s
-
-MainWindow.o: MainWindow.cpp.o
-
-.PHONY : MainWindow.o
-
-# target to build an object file
-MainWindow.cpp.o:
-	$(MAKE) -f CMakeFiles/cw2.dir/build.make CMakeFiles/cw2.dir/MainWindow.cpp.o
-.PHONY : MainWindow.cpp.o
-
-MainWindow.i: MainWindow.cpp.i
-
-.PHONY : MainWindow.i
-
-# target to preprocess a source file
-MainWindow.cpp.i:
-	$(MAKE) -f CMakeFiles/cw2.dir/build.make CMakeFiles/cw2.dir/MainWindow.cpp.i
-.PHONY : MainWindow.cpp.i
-
-MainWindow.s: MainWindow.cpp.s
-
-.PHONY : MainWindow.s
-
-# target to generate assembly for a file
-MainWindow.cpp.s:
-	$(MAKE) -f CMakeFiles/cw2.dir/build.make CMakeFiles/cw2.dir/MainWindow.cpp.s
-.PHONY : MainWindow.cpp.s
-
 cw2_autogen/mocs_compilation.o: cw2_autogen/mocs_compilation.cpp.o
 
 .PHONY : cw2_autogen/mocs_compilation.o
@@ -352,6 +298,33 @@ tomeo.cpp.s:
 	$(MAKE) -f CMakeFiles/cw2.dir/build.make CMakeFiles/cw2.dir/tomeo.cpp.s
 .PHONY : tomeo.cpp.s
 
+tv_page.o: tv_page.cpp.o
+
+.PHONY : tv_page.o
+
+# target to build an object file
+tv_page.cpp.o:
+	$(MAKE) -f CMakeFiles/cw2.dir/build.make CMakeFiles/cw2.dir/tv_page.cpp.o
+.PHONY : tv_page.cpp.o
+
+tv_page.i: tv_page.cpp.i
+
+.PHONY : tv_page.i
+
+# target to preprocess a source file
+tv_page.cpp.i:
+	$(MAKE) -f CMakeFiles/cw2.dir/build.make CMakeFiles/cw2.dir/tv_page.cpp.i
+.PHONY : tv_page.cpp.i
+
+tv_page.s: tv_page.cpp.s
+
+.PHONY : tv_page.s
+
+# target to generate assembly for a file
+tv_page.cpp.s:
+	$(MAKE) -f CMakeFiles/cw2.dir/build.make CMakeFiles/cw2.dir/tv_page.cpp.s
+.PHONY : tv_page.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -362,12 +335,6 @@ help:
 	@echo "... cw2"
 	@echo "... edit_cache"
 	@echo "... cw2_autogen"
-	@echo "... HomePage.o"
-	@echo "... HomePage.i"
-	@echo "... HomePage.s"
-	@echo "... MainWindow.o"
-	@echo "... MainWindow.i"
-	@echo "... MainWindow.s"
 	@echo "... cw2_autogen/mocs_compilation.o"
 	@echo "... cw2_autogen/mocs_compilation.i"
 	@echo "... cw2_autogen/mocs_compilation.s"
@@ -386,6 +353,9 @@ help:
 	@echo "... tomeo.o"
 	@echo "... tomeo.i"
 	@echo "... tomeo.s"
+	@echo "... tv_page.o"
+	@echo "... tv_page.i"
+	@echo "... tv_page.s"
 .PHONY : help
 
 

@@ -23,9 +23,9 @@
 #include <QImageReader>
 #include <QtCore/QDir>
 #include <QtCore/QDirIterator>
+#include <QtWidgets/QStackedWidget>
 #include "the_player.h"
 #include "the_button.h"
-#include "home_page.h"
 #include "main_window.h"
 
 
@@ -64,7 +64,7 @@ vector<TheButtonInfo> getInfoIn (string loc) {
 }
 
 
-int toms_main(int argc, char *argv[]) {
+/*int toms_main(int argc, char *argv[]) {
 
     // let's just check that Qt is operational first
     cout << "Qt version: " << QT_VERSION_STR << endl;
@@ -130,17 +130,14 @@ int toms_main(int argc, char *argv[]) {
 
     // wait for the app to terminate
     return app.exec();
-}
+}*/
 
 int main(int argc, char *argv[]) {
     // create the Qt Application
     QApplication app(argc, argv);
-
+    //create mainwindow instance
     MainWindow* window = new MainWindow();
-    QRect w = window->rect();
-
-    HomePage* home = new HomePage();
-    window->setLayout(home->layout(w));
+    //show window
     window->show();
     // wait for the app to terminate
     return app.exec();
