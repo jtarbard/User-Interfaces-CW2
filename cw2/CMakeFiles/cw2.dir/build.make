@@ -109,7 +109,6 @@ CMakeFiles/cw2.dir/the_button.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cw2.dir/the_button.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/the_button.cpp -o CMakeFiles/cw2.dir/the_button.cpp.s
 
-<<<<<<< HEAD
 CMakeFiles/cw2.dir/home_page.cpp.o: CMakeFiles/cw2.dir/flags.make
 CMakeFiles/cw2.dir/home_page.cpp.o: home_page.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cw2.dir/home_page.cpp.o"
@@ -135,33 +134,19 @@ CMakeFiles/cw2.dir/main_window.cpp.i: cmake_force
 CMakeFiles/cw2.dir/main_window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cw2.dir/main_window.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/main_window.cpp -o CMakeFiles/cw2.dir/main_window.cpp.s
-=======
-CMakeFiles/cw2.dir/HomePage.cpp.o: CMakeFiles/cw2.dir/flags.make
-CMakeFiles/cw2.dir/HomePage.cpp.o: HomePage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cw2.dir/HomePage.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cw2.dir/HomePage.cpp.o -c /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/HomePage.cpp
 
-CMakeFiles/cw2.dir/HomePage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cw2.dir/HomePage.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/HomePage.cpp > CMakeFiles/cw2.dir/HomePage.cpp.i
+CMakeFiles/cw2.dir/tv_page.cpp.o: CMakeFiles/cw2.dir/flags.make
+CMakeFiles/cw2.dir/tv_page.cpp.o: tv_page.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cw2.dir/tv_page.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cw2.dir/tv_page.cpp.o -c /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/tv_page.cpp
 
-CMakeFiles/cw2.dir/HomePage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cw2.dir/HomePage.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/HomePage.cpp -o CMakeFiles/cw2.dir/HomePage.cpp.s
+CMakeFiles/cw2.dir/tv_page.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cw2.dir/tv_page.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/tv_page.cpp > CMakeFiles/cw2.dir/tv_page.cpp.i
 
-CMakeFiles/cw2.dir/MainWindow.cpp.o: CMakeFiles/cw2.dir/flags.make
-CMakeFiles/cw2.dir/MainWindow.cpp.o: MainWindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cw2.dir/MainWindow.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cw2.dir/MainWindow.cpp.o -c /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/MainWindow.cpp
-
-CMakeFiles/cw2.dir/MainWindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cw2.dir/MainWindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/MainWindow.cpp > CMakeFiles/cw2.dir/MainWindow.cpp.i
-
-CMakeFiles/cw2.dir/MainWindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cw2.dir/MainWindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/MainWindow.cpp -o CMakeFiles/cw2.dir/MainWindow.cpp.s
->>>>>>> development
+CMakeFiles/cw2.dir/tv_page.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cw2.dir/tv_page.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/tv_page.cpp -o CMakeFiles/cw2.dir/tv_page.cpp.s
 
 # Object files for target cw2
 cw2_OBJECTS = \
@@ -169,13 +154,9 @@ cw2_OBJECTS = \
 "CMakeFiles/cw2.dir/tomeo.cpp.o" \
 "CMakeFiles/cw2.dir/the_player.cpp.o" \
 "CMakeFiles/cw2.dir/the_button.cpp.o" \
-<<<<<<< HEAD
 "CMakeFiles/cw2.dir/home_page.cpp.o" \
-"CMakeFiles/cw2.dir/main_window.cpp.o"
-=======
-"CMakeFiles/cw2.dir/HomePage.cpp.o" \
-"CMakeFiles/cw2.dir/MainWindow.cpp.o"
->>>>>>> development
+"CMakeFiles/cw2.dir/main_window.cpp.o" \
+"CMakeFiles/cw2.dir/tv_page.cpp.o"
 
 # External object files for target cw2
 cw2_EXTERNAL_OBJECTS =
@@ -184,13 +165,9 @@ cw2: CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o
 cw2: CMakeFiles/cw2.dir/tomeo.cpp.o
 cw2: CMakeFiles/cw2.dir/the_player.cpp.o
 cw2: CMakeFiles/cw2.dir/the_button.cpp.o
-<<<<<<< HEAD
 cw2: CMakeFiles/cw2.dir/home_page.cpp.o
 cw2: CMakeFiles/cw2.dir/main_window.cpp.o
-=======
-cw2: CMakeFiles/cw2.dir/HomePage.cpp.o
-cw2: CMakeFiles/cw2.dir/MainWindow.cpp.o
->>>>>>> development
+cw2: CMakeFiles/cw2.dir/tv_page.cpp.o
 cw2: CMakeFiles/cw2.dir/build.make
 cw2: /usr/lib64/libQt5MultimediaWidgets.so.5.9.7
 cw2: /usr/lib64/libQt5Xml.so.5.9.7
@@ -200,7 +177,7 @@ cw2: /usr/lib64/libQt5Network.so.5.9.7
 cw2: /usr/lib64/libQt5Gui.so.5.9.7
 cw2: /usr/lib64/libQt5Core.so.5.9.7
 cw2: CMakeFiles/cw2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable cw2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable cw2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cw2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

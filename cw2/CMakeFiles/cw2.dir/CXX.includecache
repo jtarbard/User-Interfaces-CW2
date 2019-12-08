@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-<<<<<<< HEAD
 /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/home_page.cpp
-=======
-/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/HomePage.cpp
->>>>>>> development
 QtWidgets/QWidget
 -
 QtWidgets/QVBoxLayout
@@ -19,30 +15,15 @@ QtWidgets/QLabel
 -
 QtWidgets/QLineEdit
 -
+home_page.h
+/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/home_page.h
 the_player.h
 /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/the_player.h
 the_button.h
 /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/the_button.h
-<<<<<<< HEAD
-main_window.h
-/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/main_window.h
-home_page.h
-/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/home_page.h
 
 /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/home_page.h
-
-/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/main_window.h
-=======
-MainWindow.h
-/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/MainWindow.h
-HomePage.h
-/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/HomePage.h
-
-/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/HomePage.h
-
-/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/MainWindow.h
->>>>>>> development
-QtWidgets/QMainWindow
+QtWidgets/QGridLayout
 -
 
 /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/the_button.h
@@ -61,57 +42,6 @@ vector
 QTimer
 -
 
-<<<<<<< HEAD
-=======
-/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/tomeo.cpp
-iostream
--
-QApplication
--
-QtMultimediaWidgets/QVideoWidget
--
-QMediaPlaylist
--
-string
--
-vector
--
-QtWidgets/QPushButton
--
-QtWidgets/QHBoxLayout
--
-QtCore/QFileInfo
--
-QtWidgets/QFileIconProvider
--
-QImageReader
--
-QtCore/QDir
--
-QtCore/QDirIterator
--
-the_player.h
-/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/the_player.h
-the_button.h
-/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/the_button.h
-HomePage.h
-/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/HomePage.h
-MainWindow.h
-/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/MainWindow.h
-
-/usr/include/qt5/QtCore/QDir
-qdir.h
-/usr/include/qt5/QtCore/qdir.h
-
-/usr/include/qt5/QtCore/QDirIterator
-qdiriterator.h
-/usr/include/qt5/QtCore/qdiriterator.h
-
-/usr/include/qt5/QtCore/QFileInfo
-qfileinfo.h
-/usr/include/qt5/QtCore/qfileinfo.h
-
->>>>>>> development
 /usr/include/qt5/QtCore/QSharedDataPointer
 qshareddata.h
 /usr/include/qt5/QtCore/qshareddata.h
@@ -1326,17 +1256,9 @@ QtNetwork/qtnetwork-config.h
 qapplication.h
 /usr/include/qt5/QtWidgets/qapplication.h
 
-/usr/include/qt5/QtWidgets/QLabel
-qlabel.h
-/usr/include/qt5/QtWidgets/qlabel.h
-
-/usr/include/qt5/QtWidgets/QLineEdit
-qlineedit.h
-/usr/include/qt5/QtWidgets/qlineedit.h
-
-/usr/include/qt5/QtWidgets/QMainWindow
-qmainwindow.h
-/usr/include/qt5/QtWidgets/qmainwindow.h
+/usr/include/qt5/QtWidgets/QGridLayout
+qgridlayout.h
+/usr/include/qt5/QtWidgets/qgridlayout.h
 
 /usr/include/qt5/QtWidgets/QLabel
 qlabel.h
@@ -1345,10 +1267,6 @@ qlabel.h
 /usr/include/qt5/QtWidgets/QLineEdit
 qlineedit.h
 /usr/include/qt5/QtWidgets/qlineedit.h
-
-/usr/include/qt5/QtWidgets/QMainWindow
-qmainwindow.h
-/usr/include/qt5/QtWidgets/qmainwindow.h
 
 /usr/include/qt5/QtWidgets/QPushButton
 qpushbutton.h
@@ -1401,12 +1319,6 @@ limits.h
 -
 
 /usr/include/qt5/QtWidgets/qdesktopwidget.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qwidget.h
--
-
-/usr/include/qt5/QtWidgets/qframe.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
@@ -1476,14 +1388,6 @@ QtCore/qstring.h
 QtCore/qmargins.h
 -
 
-/usr/include/qt5/QtWidgets/qmainwindow.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qwidget.h
--
-QtWidgets/qtabwidget.h
--
-
 /usr/include/qt5/QtWidgets/qpushbutton.h
 QtWidgets/qtwidgetsglobal.h
 -
@@ -1496,14 +1400,6 @@ QtWidgets/qtwidgetsglobal.h
 QtCore/qobject.h
 -
 QtCore/qalgorithms.h
--
-
-/usr/include/qt5/QtWidgets/qtabwidget.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qwidget.h
--
-QtGui/qicon.h
 -
 
 /usr/include/qt5/QtWidgets/qtwidgets-config.h

@@ -5,11 +5,13 @@
 #ifndef CW2_HOME_PAGE_H
 #define CW2_HOME_PAGE_H
 
-class HomePage: public QVBoxLayout{
+#include <QtWidgets/QGridLayout>
+
+class HomePage: public QGridLayout{
 
 public:
     HomePage(){};
-    QGridLayout* layout(QRect w);
+    QGridLayout* layout(QWidget* window, QRect w);
 };
 
 #endif //CW2_HOME_PAGE_H
