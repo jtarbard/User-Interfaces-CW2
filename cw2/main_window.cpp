@@ -16,26 +16,55 @@ MainWindow::MainWindow(){
 
     //initialise global variables
     stack = new QStackedWidget();
+    tabs = new QTabWidget();
     home = new HomePage();
     tv = new TvPage();
     homeWidget = new QWidget();
     tvWidget = new QWidget();
+    movieWidget = new QWidget();
+    favouritesWidget = new QWidget();
+
 
     //initialise stack members
     homeWidget->setLayout(home->layout(this,this->rect())); //home
-    stack->addWidget(homeWidget);
     tvWidget->setLayout(tv->layout(this,this->rect())); //tv
-    stack->addWidget(tvWidget);
 
+    stack->addWidget(tabs);
+    tabs->setTabPosition(QTabWidget::West);
+    tabs->addTab(homeWidget, QIcon("icons/home.png"),"Home");
+    tabs->addTab(tvWidget,QIcon("icons/tv.png"),"TV");
+    tabs->addTab(movieWidget, QIcon("icons/movie.png"),"Movies");
+    tabs->addTab(favouritesWidget,QIcon("icons/favourites.png"),"Favourites");
+
+    tabsbar = tabs->findChild<QTabBar *>();
+    tabsbar->setVisible(false);
     //set default member
-    stack->setCurrentWidget(homeWidget);
+    stack->setCurrentWidget(tabs);
+    tabs->setCurrentWidget(homeWidget);
     top->addWidget(stack);
+
+    connect(tabs, SIGNAL(currentChanged(int)),this,SLOT(setHome()));
+}
+
+void MainWindow::resizeEvent(QResizeEvent *event){
+    QWidget::resizeEvent(event);
+
+    switch(stack->currentIndex()){
+        case 0:
+            home->resize(this->rect());
+//        case 1:
+//            tv->resize(this->rect());
+    }
 }
 
 void MainWindow::setHome(){
-    stack->setCurrentWidget(homeWidget);
+    if(tabs->currentWidget() == homeWidget) {
+        tabs->setCurrentWidget(homeWidget);
+        tabsbar->setVisible(false);
+    }
 }
 
 void MainWindow::setTv(){
-    stack->setCurrentWidget(tvWidget);
+    tabs->setCurrentWidget(tvWidget);
+    tabsbar->setVisible(true);
 }

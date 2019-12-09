@@ -7,23 +7,31 @@
 
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QStackedWidget>
+#include <QtWidgets/QTabWidget>
+#include <QtWidgets/QTabBar>
 #include "home_page.h"
 #include "tv_page.h"
 
 class MainWindow: public QWidget {
     Q_OBJECT
     QStackedWidget* stack;
+    QTabWidget* tabs;
+    QTabBar* tabsbar;
     HomePage* home;
     TvPage* tv;
     QWidget* homeWidget;
     QWidget* tvWidget;
+    QWidget* movieWidget;
+    QWidget* favouritesWidget;
+
 public:
     MainWindow();
-    QStackedWidget* returnStack();
 
 private Q_SLOTS:
     void setHome();
     void setTv();
+
+    void resizeEvent(QResizeEvent *event);
 };
 
 
