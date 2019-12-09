@@ -1,26 +1,41 @@
 {
-	"BUILD_DIR" : "/home/sc18jt/CLionProjects/cw2/cw2_autogen",
-	"CMAKE_BINARY_DIR" : "/home/sc18jt/CLionProjects/cw2",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/sc18jt/CLionProjects/cw2",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/sc18jt/CLionProjects/cw2",
+	"BUILD_DIR" : "/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/cw2_autogen",
+	"CMAKE_BINARY_DIR" : "/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2",
 	"CMAKE_EXECUTABLE" : "/usr/local/bin/cmake",
-	"CMAKE_SOURCE_DIR" : "/home/sc18jt/CLionProjects/cw2",
+	"CMAKE_SOURCE_DIR" : "/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2",
 	"HEADERS" : 
 	[
 		[
-			"/home/sc18jt/CLionProjects/cw2/the_button.h",
+			"/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/home_page.h",
+			"MU",
+			"EWIEGA46WW/moc_home_page.cpp"
+		],
+		[
+			"/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/main_window.h",
+			"MU",
+			"EWIEGA46WW/moc_main_window.cpp"
+		],
+		[
+			"/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/the_button.h",
 			"MU",
 			"EWIEGA46WW/moc_the_button.cpp"
 		],
 		[
-			"/home/sc18jt/CLionProjects/cw2/the_player.h",
+			"/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/the_player.h",
 			"MU",
 			"EWIEGA46WW/moc_the_player.cpp"
+		],
+		[
+			"/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/tv_page.h",
+			"MU",
+			"EWIEGA46WW/moc_tv_page.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/sc18jt/CLionProjects/cw2/cw2_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/sc18jt/CLionProjects/cw2/cw2_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/cw2_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/cw2_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"QT_CORE_LIB",
@@ -41,7 +56,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/sc18jt/CLionProjects/cw2",
+		"/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2",
 		"/usr/include/qt5",
 		"/usr/include/qt5/QtWidgets",
 		"/usr/include/qt5/QtGui",
@@ -69,21 +84,39 @@
 		"-c",
 		"/usr/local/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/sc18jt/CLionProjects/cw2/cw2_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/cw2_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 2,
-	"PARSE_CACHE_FILE" : "/home/sc18jt/CLionProjects/cw2/CMakeFiles/cw2_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/CMakeFiles/cw2_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib64/qt5/bin/moc",
 	"QT_UIC_EXECUTABLE" : "/usr/lib64/qt5/bin/uic",
 	"QT_VERSION_MAJOR" : 5,
-	"SETTINGS_FILE" : "/home/sc18jt/CLionProjects/cw2/CMakeFiles/cw2_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/CMakeFiles/cw2_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/sc18jt/CLionProjects/cw2/the_button.cpp", "MU" ],
-		[ "/home/sc18jt/CLionProjects/cw2/the_player.cpp", "MU" ],
-		[ "/home/sc18jt/CLionProjects/cw2/tomeo.cpp", "MU" ]
+		[
+			"/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/home_page.cpp",
+			"MU"
+		],
+		[
+			"/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/main_window.cpp",
+			"MU"
+		],
+		[
+			"/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/the_button.cpp",
+			"MU"
+		],
+		[
+			"/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/the_player.cpp",
+			"MU"
+		],
+		[ "/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/tomeo.cpp", "MU" ],
+		[
+			"/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/tv_page.cpp",
+			"MU"
+		]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
