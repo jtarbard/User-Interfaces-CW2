@@ -55,6 +55,8 @@ QGridLayout* HomePage::layout(QWidget* window, QRect w){
 
     //setup button functionality
     connect(tv_button, SIGNAL(clicked()), window, SLOT(setTv()));
+    connect(movie_button, SIGNAL(clicked()), window, SLOT(setMovie()));
+    connect(favourites_button, SIGNAL(clicked()), window, SLOT(setFavourites()));
 
     //display widgets
     search_button->show();

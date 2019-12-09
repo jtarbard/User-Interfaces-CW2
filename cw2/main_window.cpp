@@ -24,6 +24,7 @@ MainWindow::MainWindow(){
     movieWidget = new QWidget();
     favouritesWidget = new QWidget();
 
+    tabs->setStyleSheet("margin: 0; border: 0; ");
 
     //initialise stack members
     homeWidget->setLayout(home->layout(this,this->rect())); //home
@@ -33,11 +34,14 @@ MainWindow::MainWindow(){
     tabs->setTabPosition(QTabWidget::West);
     tabs->addTab(homeWidget, QIcon("icons/home.png"),"Home");
     tabs->addTab(tvWidget,QIcon("icons/tv.png"),"TV");
-    tabs->addTab(movieWidget, QIcon("icons/movie.png"),"Movies");
+    tabs->addTab(movieWidget, QIcon("icons/movies.png"),"Movies");
     tabs->addTab(favouritesWidget,QIcon("icons/favourites.png"),"Favourites");
 
     tabsbar = tabs->findChild<QTabBar *>();
     tabsbar->setVisible(false);
+    tabsbar->setIconSize(QSize(this->width()*0.05,this->height()*0.05));
+
+
     //set default member
     stack->setCurrentWidget(tabs);
     tabs->setCurrentWidget(homeWidget);
@@ -49,7 +53,7 @@ MainWindow::MainWindow(){
 void MainWindow::resizeEvent(QResizeEvent *event){
     QWidget::resizeEvent(event);
 
-    switch(stack->currentIndex()){
+    switch(tabs->currentIndex()){
         case 0:
             home->resize(this->rect());
 //        case 1:
@@ -66,5 +70,21 @@ void MainWindow::setHome(){
 
 void MainWindow::setTv(){
     tabs->setCurrentWidget(tvWidget);
-    tabsbar->setVisible(true);
+    if(!tabsbar->isVisible()){
+        tabsbar->setVisible(true);
+    }
+}
+
+void MainWindow::setMovie(){
+    tabs->setCurrentWidget(movieWidget);
+    if(!tabsbar->isVisible()){
+        tabsbar->setVisible(true);
+    }
+}
+
+void MainWindow::setFavourites(){
+    tabs->setCurrentWidget(favouritesWidget);
+    if(!tabsbar->isVisible()){
+        tabsbar->setVisible(true);
+    }
 }

@@ -32,6 +32,10 @@ private Q_SLOTS:
     void setTv();
 
     void resizeEvent(QResizeEvent *event);
+
+    void setMovie();
+
+    void setFavourites();
 };
 
 

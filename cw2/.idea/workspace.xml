@@ -17,11 +17,15 @@
       <change beforePath="$PROJECT_DIR$/CMakeFiles/Progress/8" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/Progress/count.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2.dir/home_page.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2.dir/home_page.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2.dir/main_window.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2.dir/main_window.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2_autogen.dir/ParseCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2_autogen.dir/ParseCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw2_autogen/EWIEGA46WW/moc_the_button.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cw2_autogen/EWIEGA46WW/moc_the_button.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw2_autogen/EWIEGA46WW/moc_the_player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cw2_autogen/EWIEGA46WW/moc_the_player.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw2" beforeDir="false" afterPath="$PROJECT_DIR$/cw2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw2_autogen/EWIEGA46WW/moc_main_window.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cw2_autogen/EWIEGA46WW/moc_main_window.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_page.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/home_page.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_window.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main_window.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_window.h" beforeDir="false" afterPath="$PROJECT_DIR$/main_window.h" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,6 +87,7 @@
       <updated>1575210816244</updated>
       <workItem from="1575210817996" duration="658000" />
       <workItem from="1575734865764" duration="186000" />
+      <workItem from="1575898828436" duration="1438000" />
     </task>
     <servers />
   </component>
