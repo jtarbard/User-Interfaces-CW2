@@ -71,6 +71,7 @@ QGridLayout* HomePage::layout(QWidget* window, QRect w){
 void HomePage::resize(QRect w){
 
     //set margins
+    homeLayout->setMargin(w.height()*0.018);
     homeLayout->setVerticalSpacing(w.height()*0.018);
     search_edit->setTextMargins(w.width()*0.05,0,w.width()*0.05,0);
 

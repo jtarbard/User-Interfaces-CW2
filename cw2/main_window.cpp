@@ -13,6 +13,7 @@ MainWindow::MainWindow(){
     setMinimumSize(800, 680);
     QVBoxLayout* top = new QVBoxLayout();
     setLayout(top);
+    top->setMargin(0);
 
     //initialise global variables
     stack = new QStackedWidget();
