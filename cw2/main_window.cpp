@@ -13,29 +13,74 @@ MainWindow::MainWindow(){
     setMinimumSize(800, 680);
     QVBoxLayout* top = new QVBoxLayout();
     setLayout(top);
+    top->setMargin(0);
 
     //initialise global variables
     stack = new QStackedWidget();
+    tabs = new QTabWidget();
     home = new HomePage();
     tv = new TvPage();
     homeWidget = new QWidget();
     tvWidget = new QWidget();
+    movieWidget = new QWidget();
+    favouritesWidget = new QWidget();
+
+    tabs->setStyleSheet("margin: 0; border: 0; ");
 
     //initialise stack members
     homeWidget->setLayout(home->layout(this,this->rect())); //home
-    stack->addWidget(homeWidget);
     tvWidget->setLayout(tv->layout(this,this->rect())); //tv
-    stack->addWidget(tvWidget);
+
+    stack->addWidget(tabs);
+    tabs->setTabPosition(QTabWidget::West);
+    tabs->addTab(homeWidget, QIcon("icons/home.png"),"Home");
+    tabs->addTab(tvWidget,QIcon("icons/tv.png"),"TV");
+    tabs->addTab(movieWidget, QIcon("icons/movies.png"),"Movies");
+    tabs->addTab(favouritesWidget,QIcon("icons/favourites.png"),"Favourites");
+
+    tabsbar = tabs->findChild<QTabBar *>();
+    tabsbar->setVisible(false);
+    tabsbar->setIconSize(QSize(this->width()*0.05,this->height()*0.05));
+
+    tabs->setStyleSheet("QTabBar::tab { min-width: 100px; max-width: 150px; background-color: #B0E1E2;} QTabBar::tab:selected{background-color: #28AFB0;}");
 
     //set default member
-    stack->setCurrentWidget(homeWidget);
+    stack->setCurrentWidget(tabs);
+    tabs->setCurrentWidget(homeWidget);
     top->addWidget(stack);
+
+    connect(tabs, SIGNAL(currentChanged(int)),this,SLOT(setHome()));
+}
+
+void MainWindow::resizeEvent(QResizeEvent *event){
+    QWidget::resizeEvent(event);
+    home->resize(this->rect());
 }
 
 void MainWindow::setHome(){
-    stack->setCurrentWidget(homeWidget);
+    if(tabs->currentWidget() == homeWidget) {
+        tabs->setCurrentWidget(homeWidget);
+        tabsbar->setVisible(false);
+    }
 }
 
 void MainWindow::setTv(){
-    stack->setCurrentWidget(tvWidget);
+    tabs->setCurrentWidget(tvWidget);
+    if(!tabsbar->isVisible()){
+        tabsbar->setVisible(true);
+    }
+}
+
+void MainWindow::setMovie(){
+    tabs->setCurrentWidget(movieWidget);
+    if(!tabsbar->isVisible()){
+        tabsbar->setVisible(true);
+    }
+}
+
+void MainWindow::setFavourites(){
+    tabs->setCurrentWidget(favouritesWidget);
+    if(!tabsbar->isVisible()){
+        tabsbar->setVisible(true);
+    }
 }

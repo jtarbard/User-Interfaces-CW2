@@ -43,10 +43,10 @@ RM = /opt/clion-2019.2.5/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2
+CMAKE_SOURCE_DIR = /home/sc18jt/CLionProjects/comp2811_cw2/cw2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2
+CMAKE_BINARY_DIR = /home/sc18jt/CLionProjects/comp2811_cw2/cw2
 
 # Utility rule file for cw2_autogen.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2
 include CMakeFiles/cw2_autogen.dir/progress.make
 
 CMakeFiles/cw2_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target cw2"
-	/opt/clion-2019.2.5/bin/cmake/linux/bin/cmake -E cmake_autogen /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/CMakeFiles/cw2_autogen.dir/AutogenInfo.cmake ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sc18jt/CLionProjects/comp2811_cw2/cw2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target cw2"
+	/opt/clion-2019.2.5/bin/cmake/linux/bin/cmake -E cmake_autogen /home/sc18jt/CLionProjects/comp2811_cw2/cw2/CMakeFiles/cw2_autogen.dir/AutogenInfo.cmake ""
 
 cw2_autogen: CMakeFiles/cw2_autogen
 cw2_autogen: CMakeFiles/cw2_autogen.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/cw2_autogen.dir/clean:
 .PHONY : CMakeFiles/cw2_autogen.dir/clean
 
 CMakeFiles/cw2_autogen.dir/depend:
-	cd /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2 /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2 /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2 /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2 /home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/CMakeFiles/cw2_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sc18jt/CLionProjects/comp2811_cw2/cw2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sc18jt/CLionProjects/comp2811_cw2/cw2 /home/sc18jt/CLionProjects/comp2811_cw2/cw2 /home/sc18jt/CLionProjects/comp2811_cw2/cw2 /home/sc18jt/CLionProjects/comp2811_cw2/cw2 /home/sc18jt/CLionProjects/comp2811_cw2/cw2/CMakeFiles/cw2_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cw2_autogen.dir/depend
 

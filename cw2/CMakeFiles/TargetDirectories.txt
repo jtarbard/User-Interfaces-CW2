@@ -1,4 +1,4 @@
-/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/CMakeFiles/rebuild_cache.dir
-/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/CMakeFiles/cw2.dir
-/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/CMakeFiles/edit_cache.dir
-/home/sc18jt/CLionProjects/UI_CW2/comp2811_cw2/cw2/CMakeFiles/cw2_autogen.dir
+/home/sc18jt/CLionProjects/comp2811_cw2/cw2/CMakeFiles/rebuild_cache.dir
+/home/sc18jt/CLionProjects/comp2811_cw2/cw2/CMakeFiles/cw2.dir
+/home/sc18jt/CLionProjects/comp2811_cw2/cw2/CMakeFiles/edit_cache.dir
+/home/sc18jt/CLionProjects/comp2811_cw2/cw2/CMakeFiles/cw2_autogen.dir
