@@ -7,6 +7,8 @@ CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: cw2_autogen/EWIEGA46WW/mo
 CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: cw2_autogen/mocs_compilation.cpp
 CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: home_page.h
 CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: main_window.h
+CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: the_button.h
+CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: the_player.h
 CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: tv_page.h
 CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: /usr/include/qt5/QtCore/QSharedDataPointer
 CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: /usr/include/qt5/QtCore/QString
@@ -161,8 +163,6 @@ CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: /usr/include/qt5/QtWidget
 CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: /usr/include/qt5/QtWidgets/qtwidgets-config.h
 CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: /usr/include/qt5/QtWidgets/qtwidgetsglobal.h
 CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: /usr/include/qt5/QtWidgets/qwidget.h
-CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: the_button.h
-CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: the_player.h
 
 CMakeFiles/cw2.dir/home_page.cpp.o: home_page.cpp
 CMakeFiles/cw2.dir/home_page.cpp.o: home_page.h
@@ -952,6 +952,7 @@ CMakeFiles/cw2.dir/tv_page.cpp.o: /usr/include/qt5/QtGui/qevent.h
 CMakeFiles/cw2.dir/tv_page.cpp.o: /usr/include/qt5/QtGui/qfont.h
 CMakeFiles/cw2.dir/tv_page.cpp.o: /usr/include/qt5/QtGui/qfontinfo.h
 CMakeFiles/cw2.dir/tv_page.cpp.o: /usr/include/qt5/QtGui/qfontmetrics.h
+CMakeFiles/cw2.dir/tv_page.cpp.o: /usr/include/qt5/QtGui/qicon.h
 CMakeFiles/cw2.dir/tv_page.cpp.o: /usr/include/qt5/QtGui/qimage.h
 CMakeFiles/cw2.dir/tv_page.cpp.o: /usr/include/qt5/QtGui/qkeysequence.h
 CMakeFiles/cw2.dir/tv_page.cpp.o: /usr/include/qt5/QtGui/qmatrix.h
@@ -972,10 +973,16 @@ CMakeFiles/cw2.dir/tv_page.cpp.o: /usr/include/qt5/QtGui/qvector2d.h
 CMakeFiles/cw2.dir/tv_page.cpp.o: /usr/include/qt5/QtGui/qwindowdefs.h
 CMakeFiles/cw2.dir/tv_page.cpp.o: /usr/include/qt5/QtGui/qwindowdefs_win.h
 CMakeFiles/cw2.dir/tv_page.cpp.o: /usr/include/qt5/QtWidgets/QGridLayout
+CMakeFiles/cw2.dir/tv_page.cpp.o: /usr/include/qt5/QtWidgets/QLabel
+CMakeFiles/cw2.dir/tv_page.cpp.o: /usr/include/qt5/QtWidgets/QPushButton
+CMakeFiles/cw2.dir/tv_page.cpp.o: /usr/include/qt5/QtWidgets/qabstractbutton.h
 CMakeFiles/cw2.dir/tv_page.cpp.o: /usr/include/qt5/QtWidgets/qboxlayout.h
+CMakeFiles/cw2.dir/tv_page.cpp.o: /usr/include/qt5/QtWidgets/qframe.h
 CMakeFiles/cw2.dir/tv_page.cpp.o: /usr/include/qt5/QtWidgets/qgridlayout.h
+CMakeFiles/cw2.dir/tv_page.cpp.o: /usr/include/qt5/QtWidgets/qlabel.h
 CMakeFiles/cw2.dir/tv_page.cpp.o: /usr/include/qt5/QtWidgets/qlayout.h
 CMakeFiles/cw2.dir/tv_page.cpp.o: /usr/include/qt5/QtWidgets/qlayoutitem.h
+CMakeFiles/cw2.dir/tv_page.cpp.o: /usr/include/qt5/QtWidgets/qpushbutton.h
 CMakeFiles/cw2.dir/tv_page.cpp.o: /usr/include/qt5/QtWidgets/qsizepolicy.h
 CMakeFiles/cw2.dir/tv_page.cpp.o: /usr/include/qt5/QtWidgets/qtwidgets-config.h
 CMakeFiles/cw2.dir/tv_page.cpp.o: /usr/include/qt5/QtWidgets/qtwidgetsglobal.h

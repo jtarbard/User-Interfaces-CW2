@@ -14,15 +14,54 @@
   <component name="ChangeListManager">
     <list default="true" id="fc07f46c-3136-4ada-9e9b-5d5735306828" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.16.0-rc4/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.16.0-rc4/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.16.0-rc4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.16.0-rc4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.16.0-rc4/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.16.0-rc4/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.16.0-rc4/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.16.0-rc4/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.16.0-rc4/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/Progress/8" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/Progress/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2.dir/home_page.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2.dir/home_page.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2.dir/HomePage.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2.dir/MainWindow.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2.dir/main_window.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2.dir/main_window.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2.dir/tv_page.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2.dir/tv_page.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2_autogen.dir/AutogenInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2_autogen.dir/AutogenInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2_autogen.dir/AutogenInfo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2_autogen.dir/AutogenOldSettings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2_autogen.dir/AutogenOldSettings.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2_autogen.dir/AutogenUsed.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2_autogen.dir/ParseCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2_autogen.dir/ParseCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2_autogen.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2_autogen.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cw2" beforeDir="false" afterPath="$PROJECT_DIR$/cw2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home_page.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/home_page.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cw2.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw2_autogen/EWIEGA46WW/moc_the_button.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cw2_autogen/EWIEGA46WW/moc_the_button.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw2_autogen/EWIEGA46WW/moc_the_player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cw2_autogen/EWIEGA46WW/moc_the_player.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/favourites.png" beforeDir="false" afterPath="$PROJECT_DIR$/icons/favourites.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/home.png" beforeDir="false" afterPath="$PROJECT_DIR$/icons/home.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/movies.png" beforeDir="false" afterPath="$PROJECT_DIR$/icons/movies.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/search.png" beforeDir="false" afterPath="$PROJECT_DIR$/icons/search.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/tv.png" beforeDir="false" afterPath="$PROJECT_DIR$/icons/tv.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_window.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main_window.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tv_page.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tv_page.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,6 +124,9 @@
       <workItem from="1575210817996" duration="658000" />
       <workItem from="1575734865764" duration="186000" />
       <workItem from="1575898828436" duration="2524000" />
+      <workItem from="1576259695613" duration="6151000" />
+      <workItem from="1576331827355" duration="2575000" />
+      <workItem from="1576422364842" duration="236000" />
     </task>
     <servers />
   </component>

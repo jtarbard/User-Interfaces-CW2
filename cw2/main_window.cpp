@@ -42,6 +42,7 @@ MainWindow::MainWindow(){
     tabsbar->setVisible(false);
     tabsbar->setIconSize(QSize(this->width()*0.05,this->height()*0.05));
 
+    tabs->setStyleSheet("QTabBar::tab { min-width: 100px; max-width: 150px; background-color: #B0E1E2;} QTabBar::tab:selected{background-color: #28AFB0;}");
 
     //set default member
     stack->setCurrentWidget(tabs);
@@ -53,13 +54,7 @@ MainWindow::MainWindow(){
 
 void MainWindow::resizeEvent(QResizeEvent *event){
     QWidget::resizeEvent(event);
-
-    switch(tabs->currentIndex()){
-        case 0:
-            home->resize(this->rect());
-//        case 1:
-//            tv->resize(this->rect());
-    }
+    home->resize(this->rect());
 }
 
 void MainWindow::setHome(){
