@@ -13,6 +13,8 @@
 #include "home_page.h"
 #include "tv_page.h"
 #include "movies_page.h"
+#include "favourites_page.h"
+#include "player.h"
 
 class MainWindow: public QWidget {
     Q_OBJECT
@@ -20,10 +22,13 @@ class MainWindow: public QWidget {
     QStackedWidget* stack;
     QTabWidget* tabs;
     QTabBar* tabsbar;
+    QVBoxLayout* top;
     //instances
     HomePage* home;
     TvPage* tv;
     MoviesPage* movies;
+    FavouritesPage* favourites;
+    Player* player;
     //qwidgets
     QWidget* homeWidget;
     QWidget* tvWidget;
@@ -32,6 +37,7 @@ class MainWindow: public QWidget {
     QWidget* moviesScrollWidget;
     QWidget* favouritesWidget;
     QWidget* favouritesScrollWidget;
+    QWidget* playerWidget;
     //scrolls
     QScrollArea* tvScroll;
     QScrollArea* moviesScroll;
@@ -53,6 +59,10 @@ private Q_SLOTS:
     void setMovie();
 
     void setFavourites();
+
+    void setPlayer();
+
+    void setStack();
 };
 
 

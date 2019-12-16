@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/home/sc18jt/CLionProjects/comp2811_cw2/cw2/favourites_page.h
+QtWidgets/QGridLayout
+-
+QtWidgets/QLabel
+-
+
 /home/sc18jt/CLionProjects/comp2811_cw2/cw2/home_page.h
 QtWidgets/QGridLayout
 -
@@ -43,11 +49,19 @@ tv_page.h
 /home/sc18jt/CLionProjects/comp2811_cw2/cw2/tv_page.h
 movies_page.h
 /home/sc18jt/CLionProjects/comp2811_cw2/cw2/movies_page.h
+favourites_page.h
+/home/sc18jt/CLionProjects/comp2811_cw2/cw2/favourites_page.h
+player.h
+/home/sc18jt/CLionProjects/comp2811_cw2/cw2/player.h
 
 /home/sc18jt/CLionProjects/comp2811_cw2/cw2/movies_page.h
 QtWidgets/QGridLayout
 -
 QtWidgets/QLabel
+-
+
+/home/sc18jt/CLionProjects/comp2811_cw2/cw2/player.h
+QtWidgets/QGridLayout
 -
 
 /home/sc18jt/CLionProjects/comp2811_cw2/cw2/tv_page.h

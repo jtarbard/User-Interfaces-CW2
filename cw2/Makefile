@@ -163,6 +163,33 @@ cw2_autogen/mocs_compilation.cpp.s:
 	$(MAKE) -f CMakeFiles/cw2.dir/build.make CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.s
 .PHONY : cw2_autogen/mocs_compilation.cpp.s
 
+favourites_page.o: favourites_page.cpp.o
+
+.PHONY : favourites_page.o
+
+# target to build an object file
+favourites_page.cpp.o:
+	$(MAKE) -f CMakeFiles/cw2.dir/build.make CMakeFiles/cw2.dir/favourites_page.cpp.o
+.PHONY : favourites_page.cpp.o
+
+favourites_page.i: favourites_page.cpp.i
+
+.PHONY : favourites_page.i
+
+# target to preprocess a source file
+favourites_page.cpp.i:
+	$(MAKE) -f CMakeFiles/cw2.dir/build.make CMakeFiles/cw2.dir/favourites_page.cpp.i
+.PHONY : favourites_page.cpp.i
+
+favourites_page.s: favourites_page.cpp.s
+
+.PHONY : favourites_page.s
+
+# target to generate assembly for a file
+favourites_page.cpp.s:
+	$(MAKE) -f CMakeFiles/cw2.dir/build.make CMakeFiles/cw2.dir/favourites_page.cpp.s
+.PHONY : favourites_page.cpp.s
+
 home_page.o: home_page.cpp.o
 
 .PHONY : home_page.o
@@ -243,6 +270,33 @@ movies_page.s: movies_page.cpp.s
 movies_page.cpp.s:
 	$(MAKE) -f CMakeFiles/cw2.dir/build.make CMakeFiles/cw2.dir/movies_page.cpp.s
 .PHONY : movies_page.cpp.s
+
+player.o: player.cpp.o
+
+.PHONY : player.o
+
+# target to build an object file
+player.cpp.o:
+	$(MAKE) -f CMakeFiles/cw2.dir/build.make CMakeFiles/cw2.dir/player.cpp.o
+.PHONY : player.cpp.o
+
+player.i: player.cpp.i
+
+.PHONY : player.i
+
+# target to preprocess a source file
+player.cpp.i:
+	$(MAKE) -f CMakeFiles/cw2.dir/build.make CMakeFiles/cw2.dir/player.cpp.i
+.PHONY : player.cpp.i
+
+player.s: player.cpp.s
+
+.PHONY : player.s
+
+# target to generate assembly for a file
+player.cpp.s:
+	$(MAKE) -f CMakeFiles/cw2.dir/build.make CMakeFiles/cw2.dir/player.cpp.s
+.PHONY : player.cpp.s
 
 the_button.o: the_button.cpp.o
 
@@ -365,6 +419,9 @@ help:
 	@echo "... cw2_autogen/mocs_compilation.o"
 	@echo "... cw2_autogen/mocs_compilation.i"
 	@echo "... cw2_autogen/mocs_compilation.s"
+	@echo "... favourites_page.o"
+	@echo "... favourites_page.i"
+	@echo "... favourites_page.s"
 	@echo "... home_page.o"
 	@echo "... home_page.i"
 	@echo "... home_page.s"
@@ -374,6 +431,9 @@ help:
 	@echo "... movies_page.o"
 	@echo "... movies_page.i"
 	@echo "... movies_page.s"
+	@echo "... player.o"
+	@echo "... player.i"
+	@echo "... player.s"
 	@echo "... the_button.o"
 	@echo "... the_button.i"
 	@echo "... the_button.s"
