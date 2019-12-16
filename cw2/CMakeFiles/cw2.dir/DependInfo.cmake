@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/sc18jt/CLionProjects/comp2811_cw2/cw2/cw2_autogen/mocs_compilation.cpp" "/home/sc18jt/CLionProjects/comp2811_cw2/cw2/CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o"
   "/home/sc18jt/CLionProjects/comp2811_cw2/cw2/home_page.cpp" "/home/sc18jt/CLionProjects/comp2811_cw2/cw2/CMakeFiles/cw2.dir/home_page.cpp.o"
   "/home/sc18jt/CLionProjects/comp2811_cw2/cw2/main_window.cpp" "/home/sc18jt/CLionProjects/comp2811_cw2/cw2/CMakeFiles/cw2.dir/main_window.cpp.o"
+  "/home/sc18jt/CLionProjects/comp2811_cw2/cw2/movies_page.cpp" "/home/sc18jt/CLionProjects/comp2811_cw2/cw2/CMakeFiles/cw2.dir/movies_page.cpp.o"
   "/home/sc18jt/CLionProjects/comp2811_cw2/cw2/the_button.cpp" "/home/sc18jt/CLionProjects/comp2811_cw2/cw2/CMakeFiles/cw2.dir/the_button.cpp.o"
   "/home/sc18jt/CLionProjects/comp2811_cw2/cw2/the_player.cpp" "/home/sc18jt/CLionProjects/comp2811_cw2/cw2/CMakeFiles/cw2.dir/the_player.cpp.o"
   "/home/sc18jt/CLionProjects/comp2811_cw2/cw2/tomeo.cpp" "/home/sc18jt/CLionProjects/comp2811_cw2/cw2/CMakeFiles/cw2.dir/tomeo.cpp.o"

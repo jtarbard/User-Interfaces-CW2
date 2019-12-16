@@ -23,6 +23,8 @@ home_page.h
 /home/sc18jt/CLionProjects/comp2811_cw2/cw2/home_page.h
 tv_page.h
 /home/sc18jt/CLionProjects/comp2811_cw2/cw2/tv_page.h
+movies_page.h
+/home/sc18jt/CLionProjects/comp2811_cw2/cw2/movies_page.h
 
 /home/sc18jt/CLionProjects/comp2811_cw2/cw2/main_window.h
 QtWidgets/QMainWindow
@@ -33,10 +35,20 @@ QtWidgets/QTabWidget
 -
 QtWidgets/QTabBar
 -
+QtWidgets/QScrollArea
+-
 home_page.h
 /home/sc18jt/CLionProjects/comp2811_cw2/cw2/home_page.h
 tv_page.h
 /home/sc18jt/CLionProjects/comp2811_cw2/cw2/tv_page.h
+movies_page.h
+/home/sc18jt/CLionProjects/comp2811_cw2/cw2/movies_page.h
+
+/home/sc18jt/CLionProjects/comp2811_cw2/cw2/movies_page.h
+QtWidgets/QGridLayout
+-
+QtWidgets/QLabel
+-
 
 /home/sc18jt/CLionProjects/comp2811_cw2/cw2/tv_page.h
 QtWidgets/QGridLayout
@@ -1064,6 +1076,10 @@ QtGui/qtguiglobal.h
 qgridlayout.h
 /usr/include/qt5/QtWidgets/qgridlayout.h
 
+/usr/include/qt5/QtWidgets/QLabel
+qlabel.h
+/usr/include/qt5/QtWidgets/qlabel.h
+
 /usr/include/qt5/QtWidgets/QLayout
 qlayout.h
 /usr/include/qt5/QtWidgets/qlayout.h
@@ -1079,6 +1095,10 @@ qmainwindow.h
 /usr/include/qt5/QtWidgets/QPushButton
 qpushbutton.h
 /usr/include/qt5/QtWidgets/qpushbutton.h
+
+/usr/include/qt5/QtWidgets/QScrollArea
+qscrollarea.h
+/usr/include/qt5/QtWidgets/qscrollarea.h
 
 /usr/include/qt5/QtWidgets/QStackedWidget
 qstackedwidget.h
@@ -1100,6 +1120,12 @@ QtGui/qicon.h
 QtGui/qkeysequence.h
 -
 QtWidgets/qwidget.h
+-
+
+/usr/include/qt5/QtWidgets/qabstractscrollarea.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qframe.h
 -
 
 /usr/include/qt5/QtWidgets/qboxlayout.h
@@ -1126,6 +1152,12 @@ QtWidgets/qlayout.h
 QtWidgets/qwidget.h
 -
 limits.h
+-
+
+/usr/include/qt5/QtWidgets/qlabel.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qframe.h
 -
 
 /usr/include/qt5/QtWidgets/qlayout.h
@@ -1182,6 +1214,12 @@ QtWidgets/qtabwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractbutton.h
+-
+
+/usr/include/qt5/QtWidgets/qscrollarea.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qabstractscrollarea.h
 -
 
 /usr/include/qt5/QtWidgets/qsizepolicy.h
