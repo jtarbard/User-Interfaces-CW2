@@ -23,6 +23,7 @@ MainWindow::MainWindow(){
     home = new HomePage();
     tv = new TvPage();
     movies = new MoviesPage();
+    favourites = new FavouritesPage();
     homeWidget = new QWidget();
     tvWidget = new QWidget();
     moviesWidget = new QWidget();
@@ -34,6 +35,7 @@ MainWindow::MainWindow(){
     homeWidget->setLayout(home->layout(this,this->rect())); //home
     tvWidget->setLayout(tv->layout(this,this->rect())); //tv
     moviesWidget->setLayout(movies->layout(this,this->rect())); //movies
+    favouritesWidget->setLayout(favourites->layout(this,this->rect())); //favourites
 
     //declare tv vars
     tvScroll = new QScrollArea();

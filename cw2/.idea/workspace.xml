@@ -13,13 +13,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc07f46c-3136-4ada-9e9b-5d5735306828" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/movies_page.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies_page.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favourites_page.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favourites_page.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/Progress/8" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/Progress/count.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2.dir/build.make" afterDir="false" />

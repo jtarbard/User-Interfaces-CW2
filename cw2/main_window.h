@@ -13,6 +13,7 @@
 #include "home_page.h"
 #include "tv_page.h"
 #include "movies_page.h"
+#include "favourites_page.h"
 
 class MainWindow: public QWidget {
     Q_OBJECT
@@ -24,6 +25,7 @@ class MainWindow: public QWidget {
     HomePage* home;
     TvPage* tv;
     MoviesPage* movies;
+    FavouritesPage* favourites;
     //qwidgets
     QWidget* homeWidget;
     QWidget* tvWidget;

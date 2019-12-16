@@ -131,6 +131,12 @@
 		<Unit filename="/home/sc18jt/CLionProjects/comp2811_cw2/cw2/cw2_autogen/mocs_compilation.cpp">
 			<Option target="cw2"/>
 		</Unit>
+		<Unit filename="/home/sc18jt/CLionProjects/comp2811_cw2/cw2/favourites_page.cpp">
+			<Option target="cw2"/>
+		</Unit>
+		<Unit filename="/home/sc18jt/CLionProjects/comp2811_cw2/cw2/favourites_page.h">
+			<Option target="cw2"/>
+		</Unit>
 		<Unit filename="/home/sc18jt/CLionProjects/comp2811_cw2/cw2/home_page.cpp">
 			<Option target="cw2"/>
 		</Unit>
