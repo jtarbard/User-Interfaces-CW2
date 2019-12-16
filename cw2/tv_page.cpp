@@ -13,6 +13,7 @@ QLabel* cat2_label;
 QLabel* cat3_label;
 
 QGridLayout *tvLayout = new QGridLayout();
+QWidgetList buttons;
 
 QGridLayout* TvPage::layout(QWidget* window, QRect w){
 
@@ -28,7 +29,7 @@ QGridLayout* TvPage::layout(QWidget* window, QRect w){
 
     for(int i = 0; i < 6; i++) {
         if(i%2 == 1) {
-            tvLayout->setRowMinimumHeight(i, w.height() * 0.5);
+//            tvLayout->setRowMinimumHeight(i, w.width() * 0.5);
         }
         else{
             tvLayout->setRowMinimumHeight(i, w.height() * 0.1);
@@ -41,8 +42,10 @@ QGridLayout* TvPage::layout(QWidget* window, QRect w){
     for ( int i = 0; i < 4; i++ ) {
         auto* thumbnail = new QPushButton("Placeholder");
         thumbnail->setSizePolicy(QSizePolicy::Expanding,QSizePolicy::Expanding);
+        thumbnail->setMinimumSize(w.width()*0.3,w.height()*0.5);
         tvLayout->addWidget(thumbnail,1,i,1,1);
         thumbnail->setFont(font);
+        buttons.append(thumbnail);
     }
 
     tvLayout->addWidget(cat2_label, 2,0,1,2);
@@ -51,8 +54,10 @@ QGridLayout* TvPage::layout(QWidget* window, QRect w){
     for ( int i = 0; i < 4; i++ ) {
         auto* thumbnail = new QPushButton("Placeholder");
         thumbnail->setSizePolicy(QSizePolicy::Expanding,QSizePolicy::Expanding);
+        thumbnail->setMinimumSize(w.width()*0.3,w.height()*0.5);
         tvLayout->addWidget(thumbnail,3,i,1,1);
         thumbnail->setFont(font);
+        buttons.append(thumbnail);
     }
 
     tvLayout->addWidget(cat3_label, 4,0,1,2);
@@ -61,28 +66,15 @@ QGridLayout* TvPage::layout(QWidget* window, QRect w){
     for ( int i = 0; i < 4; i++ ) {
         auto* thumbnail = new QPushButton("Placeholder");
         thumbnail->setSizePolicy(QSizePolicy::Expanding,QSizePolicy::Expanding);
+        thumbnail->setMinimumSize(w.width()*0.3,w.height()*0.5);
         tvLayout->addWidget(thumbnail,5,i,1,1);
         thumbnail->setFont(font);
+        buttons.append(thumbnail);
     }
-
-
-
 
     return tvLayout;
 }
 
 void TvPage::resize(QRect w){
 
-    for(int i = 0; i < 4; i++) {
-        tvLayout->setColumnMinimumWidth(i, w.width() * 0.3);
-    }
-
-    for(int i = 0; i < 6; i++) {
-        if(i%2 == 1) {
-            tvLayout->setRowMinimumHeight(i, w.height() * 0.5);
-        }
-        else{
-            tvLayout->setRowMinimumHeight(i, w.height() * 0.1);
-        }
-    }
 }

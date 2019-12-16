@@ -36,6 +36,7 @@ MainWindow::MainWindow(){
     tvScroll = new QScrollArea();
     tvScrollWidget = new QWidget();
     tvLayout = new QVBoxLayout();
+    tvScroll->setWidgetResizable(true);
     //initialise tv vars
     tvScroll->setWidget(tvWidget);
     tvLayout->addWidget(tvScroll);
@@ -45,6 +46,7 @@ MainWindow::MainWindow(){
     moviesScroll = new QScrollArea();
     moviesScrollWidget = new QWidget();
     moviesLayout = new QVBoxLayout();
+    moviesScroll->setWidgetResizable(true);
     //initialise movies vars
     moviesScroll->setWidget(moviesWidget);
     moviesLayout->addWidget(moviesScroll);
@@ -54,6 +56,7 @@ MainWindow::MainWindow(){
     favouritesScroll = new QScrollArea();
     favouritesScrollWidget = new QWidget();
     favouritesLayout = new QVBoxLayout();
+    favouritesScroll->setWidgetResizable(true);
     //initialise favourites vars
     favouritesScroll->setWidget(favouritesWidget);
     favouritesLayout->addWidget(favouritesScroll);
