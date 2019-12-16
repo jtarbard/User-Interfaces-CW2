@@ -12,6 +12,7 @@
 #include <QtWidgets/QScrollArea>
 #include "home_page.h"
 #include "tv_page.h"
+#include "movies_page.h"
 
 class MainWindow: public QWidget {
     Q_OBJECT
@@ -22,6 +23,7 @@ class MainWindow: public QWidget {
     //instances
     HomePage* home;
     TvPage* tv;
+    MoviesPage* movies;
     //qwidgets
     QWidget* homeWidget;
     QWidget* tvWidget;

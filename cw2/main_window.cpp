@@ -6,6 +6,7 @@
 #include "main_window.h"
 #include "home_page.h"
 #include "tv_page.h"
+#include "movies_page.h"
 
 MainWindow::MainWindow(){
 
@@ -21,6 +22,7 @@ MainWindow::MainWindow(){
     tabs = new QTabWidget();
     home = new HomePage();
     tv = new TvPage();
+    movies = new MoviesPage();
     homeWidget = new QWidget();
     tvWidget = new QWidget();
     moviesWidget = new QWidget();
@@ -31,6 +33,7 @@ MainWindow::MainWindow(){
     //initialise stack members
     homeWidget->setLayout(home->layout(this,this->rect())); //home
     tvWidget->setLayout(tv->layout(this,this->rect())); //tv
+    moviesWidget->setLayout(movies->layout(this,this->rect())); //movies
 
     //declare tv vars
     tvScroll = new QScrollArea();
