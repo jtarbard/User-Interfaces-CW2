@@ -32,6 +32,7 @@ MainWindow::MainWindow(){
     homeWidget->setLayout(home->layout(this,this->rect())); //home
     tvWidget->setLayout(tv->layout(this,this->rect())); //tv
 
+    //TODO: rename variables and maybe move code
     QScrollArea* tvScroll = new QScrollArea();
     tvScroll->setWidget(tvWidget);
     QWidget* temp = new QWidget();

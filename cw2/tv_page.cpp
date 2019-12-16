@@ -21,10 +21,20 @@ QGridLayout* TvPage::layout(QWidget* window, QRect w){
     cat2_label = new QLabel("Animals");
     cat3_label = new QLabel("Gameshows");
 
-    tvLayout->setColumnMinimumWidth(0,w.width()*0.3);
-    tvLayout->setColumnMinimumWidth(1,w.width()*0.3);
-    tvLayout->setColumnMinimumWidth(2,w.width()*0.3);
-    tvLayout->setColumnMinimumWidth(3,w.width()*0.3);
+    for(int i = 0; i < 4; i++) {
+        tvLayout->setColumnMinimumWidth(i, w.width() * 0.3);
+    }
+
+    for(int i = 0; i < 6; i++) {
+        if(i%2 == 1) {
+            tvLayout->setRowMinimumHeight(i, w.height() * 0.5);
+        }
+        else{
+            tvLayout->setRowMinimumHeight(i, w.height() * 0.1);
+        }
+    }
+
+
 
     tvLayout->addWidget(cat1_label, 0,0,1,2);
     cat1_label->setFont(font);
@@ -32,27 +42,27 @@ QGridLayout* TvPage::layout(QWidget* window, QRect w){
     for ( int i = 0; i < 4; i++ ) {
         auto* thumbnail = new QPushButton("Placeholder");
         thumbnail->setSizePolicy(QSizePolicy::Expanding,QSizePolicy::Expanding);
-        tvLayout->addWidget(thumbnail,1,i,2,1);
+        tvLayout->addWidget(thumbnail,1,i,1,1);
         thumbnail->setFont(font);
     }
 
-    tvLayout->addWidget(cat2_label, 3,0,1,2);
+    tvLayout->addWidget(cat2_label, 2,0,1,2);
     cat2_label->setFont(font);
     //Creates Category 2 Labels
     for ( int i = 0; i < 4; i++ ) {
         auto* thumbnail = new QPushButton("Placeholder");
         thumbnail->setSizePolicy(QSizePolicy::Expanding,QSizePolicy::Expanding);
-        tvLayout->addWidget(thumbnail,4,i,2,1);
+        tvLayout->addWidget(thumbnail,3,i,1,1);
         thumbnail->setFont(font);
     }
 
-    tvLayout->addWidget(cat3_label, 6,0,1,2);
+    tvLayout->addWidget(cat3_label, 4,0,1,2);
     cat3_label->setFont(font);
     //Creates Category 3 Labels
     for ( int i = 0; i < 4; i++ ) {
         auto* thumbnail = new QPushButton("Placeholder");
         thumbnail->setSizePolicy(QSizePolicy::Expanding,QSizePolicy::Expanding);
-        tvLayout->addWidget(thumbnail,7,i,2,1);
+        tvLayout->addWidget(thumbnail,5,i,1,1);
         thumbnail->setFont(font);
     }
 
