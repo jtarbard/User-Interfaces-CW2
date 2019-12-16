@@ -217,6 +217,33 @@ main_window.cpp.s:
 	$(MAKE) -f CMakeFiles/cw2.dir/build.make CMakeFiles/cw2.dir/main_window.cpp.s
 .PHONY : main_window.cpp.s
 
+movies_page.o: movies_page.cpp.o
+
+.PHONY : movies_page.o
+
+# target to build an object file
+movies_page.cpp.o:
+	$(MAKE) -f CMakeFiles/cw2.dir/build.make CMakeFiles/cw2.dir/movies_page.cpp.o
+.PHONY : movies_page.cpp.o
+
+movies_page.i: movies_page.cpp.i
+
+.PHONY : movies_page.i
+
+# target to preprocess a source file
+movies_page.cpp.i:
+	$(MAKE) -f CMakeFiles/cw2.dir/build.make CMakeFiles/cw2.dir/movies_page.cpp.i
+.PHONY : movies_page.cpp.i
+
+movies_page.s: movies_page.cpp.s
+
+.PHONY : movies_page.s
+
+# target to generate assembly for a file
+movies_page.cpp.s:
+	$(MAKE) -f CMakeFiles/cw2.dir/build.make CMakeFiles/cw2.dir/movies_page.cpp.s
+.PHONY : movies_page.cpp.s
+
 the_button.o: the_button.cpp.o
 
 .PHONY : the_button.o
@@ -344,6 +371,9 @@ help:
 	@echo "... main_window.o"
 	@echo "... main_window.i"
 	@echo "... main_window.s"
+	@echo "... movies_page.o"
+	@echo "... movies_page.i"
+	@echo "... movies_page.s"
 	@echo "... the_button.o"
 	@echo "... the_button.i"
 	@echo "... the_button.s"
