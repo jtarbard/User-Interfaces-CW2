@@ -9,20 +9,35 @@
 #include <QtWidgets/QStackedWidget>
 #include <QtWidgets/QTabWidget>
 #include <QtWidgets/QTabBar>
+#include <QtWidgets/QScrollArea>
 #include "home_page.h"
 #include "tv_page.h"
 
 class MainWindow: public QWidget {
     Q_OBJECT
+    //core
     QStackedWidget* stack;
     QTabWidget* tabs;
     QTabBar* tabsbar;
+    //instances
     HomePage* home;
     TvPage* tv;
+    //qwidgets
     QWidget* homeWidget;
     QWidget* tvWidget;
-    QWidget* movieWidget;
+    QWidget* tvScrollWidget;
+    QWidget* moviesWidget;
+    QWidget* moviesScrollWidget;
     QWidget* favouritesWidget;
+    QWidget* favouritesScrollWidget;
+    //scrolls
+    QScrollArea* tvScroll;
+    QScrollArea* moviesScroll;
+    QScrollArea* favouritesScroll;
+    //layouts
+    QVBoxLayout* tvLayout;
+    QVBoxLayout* moviesLayout;
+    QVBoxLayout* favouritesLayout;
 
 public:
     MainWindow();

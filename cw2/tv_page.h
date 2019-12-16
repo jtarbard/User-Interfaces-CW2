@@ -12,6 +12,7 @@ class TvPage: public QGridLayout {
 public:
     TvPage(){};
     QGridLayout * layout(QWidget* window, QRect w);
+    void resize(QRect w);
 };
 
 
