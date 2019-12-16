@@ -426,10 +426,12 @@ CMakeFiles/cw2.dir/main_window.cpp.o: /usr/include/qt5/QtWidgets/QLayout
 CMakeFiles/cw2.dir/main_window.cpp.o: /usr/include/qt5/QtWidgets/QLineEdit
 CMakeFiles/cw2.dir/main_window.cpp.o: /usr/include/qt5/QtWidgets/QMainWindow
 CMakeFiles/cw2.dir/main_window.cpp.o: /usr/include/qt5/QtWidgets/QPushButton
+CMakeFiles/cw2.dir/main_window.cpp.o: /usr/include/qt5/QtWidgets/QScrollArea
 CMakeFiles/cw2.dir/main_window.cpp.o: /usr/include/qt5/QtWidgets/QStackedWidget
 CMakeFiles/cw2.dir/main_window.cpp.o: /usr/include/qt5/QtWidgets/QTabBar
 CMakeFiles/cw2.dir/main_window.cpp.o: /usr/include/qt5/QtWidgets/QTabWidget
 CMakeFiles/cw2.dir/main_window.cpp.o: /usr/include/qt5/QtWidgets/qabstractbutton.h
+CMakeFiles/cw2.dir/main_window.cpp.o: /usr/include/qt5/QtWidgets/qabstractscrollarea.h
 CMakeFiles/cw2.dir/main_window.cpp.o: /usr/include/qt5/QtWidgets/qboxlayout.h
 CMakeFiles/cw2.dir/main_window.cpp.o: /usr/include/qt5/QtWidgets/qframe.h
 CMakeFiles/cw2.dir/main_window.cpp.o: /usr/include/qt5/QtWidgets/qgridlayout.h
@@ -438,6 +440,7 @@ CMakeFiles/cw2.dir/main_window.cpp.o: /usr/include/qt5/QtWidgets/qlayoutitem.h
 CMakeFiles/cw2.dir/main_window.cpp.o: /usr/include/qt5/QtWidgets/qlineedit.h
 CMakeFiles/cw2.dir/main_window.cpp.o: /usr/include/qt5/QtWidgets/qmainwindow.h
 CMakeFiles/cw2.dir/main_window.cpp.o: /usr/include/qt5/QtWidgets/qpushbutton.h
+CMakeFiles/cw2.dir/main_window.cpp.o: /usr/include/qt5/QtWidgets/qscrollarea.h
 CMakeFiles/cw2.dir/main_window.cpp.o: /usr/include/qt5/QtWidgets/qsizepolicy.h
 CMakeFiles/cw2.dir/main_window.cpp.o: /usr/include/qt5/QtWidgets/qstackedwidget.h
 CMakeFiles/cw2.dir/main_window.cpp.o: /usr/include/qt5/QtWidgets/qtabbar.h

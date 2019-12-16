@@ -21,13 +21,17 @@ QGridLayout* TvPage::layout(QWidget* window, QRect w){
     cat2_label = new QLabel("Animals");
     cat3_label = new QLabel("Gameshows");
 
+    tvLayout->setColumnMinimumWidth(0,w.width()*0.3);
+    tvLayout->setColumnMinimumWidth(1,w.width()*0.3);
+    tvLayout->setColumnMinimumWidth(2,w.width()*0.3);
+    tvLayout->setColumnMinimumWidth(3,w.width()*0.3);
+
     tvLayout->addWidget(cat1_label, 0,0,1,2);
     cat1_label->setFont(font);
     //Creates Category 1 Labels
     for ( int i = 0; i < 4; i++ ) {
         auto* thumbnail = new QPushButton("Placeholder");
         thumbnail->setSizePolicy(QSizePolicy::Expanding,QSizePolicy::Expanding);
-        tvLayout->setColumnMinimumWidth(0,w.width()*0.1);
         tvLayout->addWidget(thumbnail,1,i,2,1);
         thumbnail->setFont(font);
     }

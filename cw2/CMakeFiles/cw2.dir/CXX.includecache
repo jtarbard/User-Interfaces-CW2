@@ -17,6 +17,8 @@ QtWidgets/QPushButton
 /home/sc18jt/CLionProjects/comp2811_cw2/cw2/main_window.cpp
 QtWidgets/QLayout
 -
+QtWidgets/QScrollArea
+-
 main_window.h
 /home/sc18jt/CLionProjects/comp2811_cw2/cw2/main_window.h
 home_page.h
@@ -1080,6 +1082,10 @@ qmainwindow.h
 qpushbutton.h
 /usr/include/qt5/QtWidgets/qpushbutton.h
 
+/usr/include/qt5/QtWidgets/QScrollArea
+qscrollarea.h
+/usr/include/qt5/QtWidgets/qscrollarea.h
+
 /usr/include/qt5/QtWidgets/QStackedWidget
 qstackedwidget.h
 /usr/include/qt5/QtWidgets/qstackedwidget.h
@@ -1100,6 +1106,12 @@ QtGui/qicon.h
 QtGui/qkeysequence.h
 -
 QtWidgets/qwidget.h
+-
+
+/usr/include/qt5/QtWidgets/qabstractscrollarea.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qframe.h
 -
 
 /usr/include/qt5/QtWidgets/qboxlayout.h
@@ -1182,6 +1194,12 @@ QtWidgets/qtabwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractbutton.h
+-
+
+/usr/include/qt5/QtWidgets/qscrollarea.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qabstractscrollarea.h
 -
 
 /usr/include/qt5/QtWidgets/qsizepolicy.h

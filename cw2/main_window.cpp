@@ -3,6 +3,7 @@
 //
 
 #include <QtWidgets/QLayout>
+#include <QtWidgets/QScrollArea>
 #include "main_window.h"
 #include "home_page.h"
 #include "tv_page.h"
@@ -31,10 +32,17 @@ MainWindow::MainWindow(){
     homeWidget->setLayout(home->layout(this,this->rect())); //home
     tvWidget->setLayout(tv->layout(this,this->rect())); //tv
 
+    QScrollArea* tvScroll = new QScrollArea();
+    tvScroll->setWidget(tvWidget);
+    QWidget* temp = new QWidget();
+    QVBoxLayout* bltemp = new QVBoxLayout();
+    bltemp->addWidget(tvScroll);
+    temp->setLayout(bltemp);
+
     stack->addWidget(tabs);
     tabs->setTabPosition(QTabWidget::West);
     tabs->addTab(homeWidget, QIcon("icons/home.png"),"Home");
-    tabs->addTab(tvWidget,QIcon("icons/tv.png"),"TV");
+    tabs->addTab(temp,QIcon("icons/tv.png"),"TV");
     tabs->addTab(movieWidget, QIcon("icons/movies.png"),"Movies");
     tabs->addTab(favouritesWidget,QIcon("icons/favourites.png"),"Favourites");
 
