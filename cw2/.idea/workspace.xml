@@ -13,8 +13,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc07f46c-3136-4ada-9e9b-5d5735306828" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/favourites_page.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favourites_page.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/player.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/player.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/Progress/8" beforeDir="false" />
@@ -23,8 +23,10 @@
       <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2.dir/favourites_page.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2.dir/favourites_page.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2.dir/main_window.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2.dir/main_window.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/cw2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/cw2.dir/progress.make" afterDir="false" />
@@ -37,6 +39,8 @@
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cw2" beforeDir="false" afterPath="$PROJECT_DIR$/cw2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cw2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cw2.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw2_autogen/EWIEGA46WW/moc_main_window.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cw2_autogen/EWIEGA46WW/moc_main_window.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favourites_page.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/favourites_page.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_window.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main_window.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_window.h" beforeDir="false" afterPath="$PROJECT_DIR$/main_window.h" afterDir="false" />
     </list>
@@ -50,6 +54,9 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Default" />
+  <component name="FavoritesManager">
+    <favorites_list name="cw2" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>

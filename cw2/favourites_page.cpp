@@ -21,6 +21,7 @@ QGridLayout* FavouritesPage::layout(QWidget* window, QRect w) {
         thumbnail->setMinimumSize(w.width()*0.4,w.height()*0.5);
         favouritesLayout->addWidget(thumbnail,1,i,1,1);
         thumbnail->setFont(font);
+        connect(thumbnail, SIGNAL(clicked()),window,SLOT(setPlayer()));
     }
 
     return favouritesLayout;

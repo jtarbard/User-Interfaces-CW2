@@ -155,6 +155,12 @@
 		<Unit filename="/home/sc18jt/CLionProjects/comp2811_cw2/cw2/movies_page.h">
 			<Option target="cw2"/>
 		</Unit>
+		<Unit filename="/home/sc18jt/CLionProjects/comp2811_cw2/cw2/player.cpp">
+			<Option target="cw2"/>
+		</Unit>
+		<Unit filename="/home/sc18jt/CLionProjects/comp2811_cw2/cw2/player.h">
+			<Option target="cw2"/>
+		</Unit>
 		<Unit filename="/home/sc18jt/CLionProjects/comp2811_cw2/cw2/the_button.cpp">
 			<Option target="cw2"/>
 		</Unit>

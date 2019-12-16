@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cw2.dir/home_page.cpp.o"
   "CMakeFiles/cw2.dir/main_window.cpp.o"
   "CMakeFiles/cw2.dir/movies_page.cpp.o"
+  "CMakeFiles/cw2.dir/player.cpp.o"
   "CMakeFiles/cw2.dir/the_button.cpp.o"
   "CMakeFiles/cw2.dir/the_player.cpp.o"
   "CMakeFiles/cw2.dir/tomeo.cpp.o"

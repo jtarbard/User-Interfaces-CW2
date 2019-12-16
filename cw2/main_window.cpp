@@ -13,7 +13,7 @@ MainWindow::MainWindow(){
     //setup window attributes
     setWindowTitle("tomeo");
     setMinimumSize(800, 680);
-    QVBoxLayout* top = new QVBoxLayout();
+    top = new QVBoxLayout();
     setLayout(top);
     top->setMargin(0);
 
@@ -24,10 +24,12 @@ MainWindow::MainWindow(){
     tv = new TvPage();
     movies = new MoviesPage();
     favourites = new FavouritesPage();
+    player = new Player();
     homeWidget = new QWidget();
     tvWidget = new QWidget();
     moviesWidget = new QWidget();
     favouritesWidget = new QWidget();
+    playerWidget = new QWidget();
 
     tabs->setStyleSheet("margin: 0; border: 0; ");
 
@@ -36,6 +38,9 @@ MainWindow::MainWindow(){
     tvWidget->setLayout(tv->layout(this,this->rect())); //tv
     moviesWidget->setLayout(movies->layout(this,this->rect())); //movies
     favouritesWidget->setLayout(favourites->layout(this,this->rect())); //favourites
+    playerWidget->setLayout(player->layout(this,this->rect())); //player
+
+    playerWidget->setStyleSheet("background-color: black; color: white;");
 
     //declare tv vars
     tvScroll = new QScrollArea();
@@ -120,4 +125,15 @@ void MainWindow::setFavourites(){
     if(!tabsbar->isVisible()){
         tabsbar->setVisible(true);
     }
+}
+
+void MainWindow::setPlayer(){
+//    top->addWidget(playerWidget);
+//    top->removeWidget(stack);
+}
+
+void MainWindow::setStack(){
+//    top->addWidget(stack);
+//    printf("setstack ran");
+//    top->removeWidget(playerWidget);
 }
