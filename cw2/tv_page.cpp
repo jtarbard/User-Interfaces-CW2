@@ -12,9 +12,10 @@ QLabel* cat1_label;
 QLabel* cat2_label;
 QLabel* cat3_label;
 
+QGridLayout *tvLayout = new QGridLayout();
+
 QGridLayout* TvPage::layout(QWidget* window, QRect w){
 
-    QGridLayout *tvLayout = new QGridLayout();
     QFont font("Arial", 16);
 
     cat1_label = new QLabel("Superheroes");
@@ -33,8 +34,6 @@ QGridLayout* TvPage::layout(QWidget* window, QRect w){
             tvLayout->setRowMinimumHeight(i, w.height() * 0.1);
         }
     }
-
-
 
     tvLayout->addWidget(cat1_label, 0,0,1,2);
     cat1_label->setFont(font);
@@ -70,4 +69,20 @@ QGridLayout* TvPage::layout(QWidget* window, QRect w){
 
 
     return tvLayout;
+}
+
+void TvPage::resize(QRect w){
+
+    for(int i = 0; i < 4; i++) {
+        tvLayout->setColumnMinimumWidth(i, w.width() * 0.3);
+    }
+
+    for(int i = 0; i < 6; i++) {
+        if(i%2 == 1) {
+            tvLayout->setRowMinimumHeight(i, w.height() * 0.5);
+        }
+        else{
+            tvLayout->setRowMinimumHeight(i, w.height() * 0.1);
+        }
+    }
 }

@@ -3,12 +3,12 @@
 //
 
 #include <QtWidgets/QLayout>
-#include <QtWidgets/QScrollArea>
 #include "main_window.h"
 #include "home_page.h"
 #include "tv_page.h"
 
 MainWindow::MainWindow(){
+
     //setup window attributes
     setWindowTitle("tomeo");
     setMinimumSize(800, 680);
@@ -23,7 +23,7 @@ MainWindow::MainWindow(){
     tv = new TvPage();
     homeWidget = new QWidget();
     tvWidget = new QWidget();
-    movieWidget = new QWidget();
+    moviesWidget = new QWidget();
     favouritesWidget = new QWidget();
 
     tabs->setStyleSheet("margin: 0; border: 0; ");
@@ -32,20 +32,39 @@ MainWindow::MainWindow(){
     homeWidget->setLayout(home->layout(this,this->rect())); //home
     tvWidget->setLayout(tv->layout(this,this->rect())); //tv
 
-    //TODO: rename variables and maybe move code
-    QScrollArea* tvScroll = new QScrollArea();
+    //declare tv vars
+    tvScroll = new QScrollArea();
+    tvScrollWidget = new QWidget();
+    tvLayout = new QVBoxLayout();
+    //initialise tv vars
     tvScroll->setWidget(tvWidget);
-    QWidget* temp = new QWidget();
-    QVBoxLayout* bltemp = new QVBoxLayout();
-    bltemp->addWidget(tvScroll);
-    temp->setLayout(bltemp);
+    tvLayout->addWidget(tvScroll);
+    tvScrollWidget->setLayout(tvLayout);
+
+    //declare movies vars
+    moviesScroll = new QScrollArea();
+    moviesScrollWidget = new QWidget();
+    moviesLayout = new QVBoxLayout();
+    //initialise movies vars
+    moviesScroll->setWidget(moviesWidget);
+    moviesLayout->addWidget(moviesScroll);
+    moviesScrollWidget->setLayout(moviesLayout);
+
+    //declare favourites vars
+    favouritesScroll = new QScrollArea();
+    favouritesScrollWidget = new QWidget();
+    favouritesLayout = new QVBoxLayout();
+    //initialise favourites vars
+    favouritesScroll->setWidget(favouritesWidget);
+    favouritesLayout->addWidget(favouritesScroll);
+    favouritesScrollWidget->setLayout(favouritesLayout);
 
     stack->addWidget(tabs);
     tabs->setTabPosition(QTabWidget::West);
     tabs->addTab(homeWidget, QIcon("icons/home.png"),"Home");
-    tabs->addTab(temp,QIcon("icons/tv.png"),"TV");
-    tabs->addTab(movieWidget, QIcon("icons/movies.png"),"Movies");
-    tabs->addTab(favouritesWidget,QIcon("icons/favourites.png"),"Favourites");
+    tabs->addTab(tvScrollWidget,QIcon("icons/tv.png"),"TV");
+    tabs->addTab(moviesScrollWidget, QIcon("icons/movies.png"),"Movies");
+    tabs->addTab(favouritesScrollWidget,QIcon("icons/favourites.png"),"Favourites");
 
     tabsbar = tabs->findChild<QTabBar *>();
     tabsbar->setVisible(false);
@@ -64,6 +83,7 @@ MainWindow::MainWindow(){
 void MainWindow::resizeEvent(QResizeEvent *event){
     QWidget::resizeEvent(event);
     home->resize(this->rect());
+    tv->resize(this->rect());
 }
 
 void MainWindow::setHome(){
@@ -74,21 +94,21 @@ void MainWindow::setHome(){
 }
 
 void MainWindow::setTv(){
-    tabs->setCurrentWidget(tvWidget);
+    tabs->setCurrentWidget(tvScrollWidget);
     if(!tabsbar->isVisible()){
         tabsbar->setVisible(true);
     }
 }
 
 void MainWindow::setMovie(){
-    tabs->setCurrentWidget(movieWidget);
+    tabs->setCurrentWidget(moviesScrollWidget);
     if(!tabsbar->isVisible()){
         tabsbar->setVisible(true);
     }
 }
 
 void MainWindow::setFavourites(){
-    tabs->setCurrentWidget(favouritesWidget);
+    tabs->setCurrentWidget(favouritesScrollWidget);
     if(!tabsbar->isVisible()){
         tabsbar->setVisible(true);
     }

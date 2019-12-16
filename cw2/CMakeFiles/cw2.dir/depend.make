@@ -142,10 +142,12 @@ CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: /usr/include/qt5/QtWidget
 CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: /usr/include/qt5/QtWidgets/QLineEdit
 CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: /usr/include/qt5/QtWidgets/QMainWindow
 CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: /usr/include/qt5/QtWidgets/QPushButton
+CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: /usr/include/qt5/QtWidgets/QScrollArea
 CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: /usr/include/qt5/QtWidgets/QStackedWidget
 CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: /usr/include/qt5/QtWidgets/QTabBar
 CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: /usr/include/qt5/QtWidgets/QTabWidget
 CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: /usr/include/qt5/QtWidgets/qabstractbutton.h
+CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: /usr/include/qt5/QtWidgets/qabstractscrollarea.h
 CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: /usr/include/qt5/QtWidgets/qapplication.h
 CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: /usr/include/qt5/QtWidgets/qboxlayout.h
 CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: /usr/include/qt5/QtWidgets/qdesktopwidget.h
@@ -156,6 +158,7 @@ CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: /usr/include/qt5/QtWidget
 CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: /usr/include/qt5/QtWidgets/qlineedit.h
 CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: /usr/include/qt5/QtWidgets/qmainwindow.h
 CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: /usr/include/qt5/QtWidgets/qpushbutton.h
+CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: /usr/include/qt5/QtWidgets/qscrollarea.h
 CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: /usr/include/qt5/QtWidgets/qsizepolicy.h
 CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: /usr/include/qt5/QtWidgets/qstackedwidget.h
 CMakeFiles/cw2.dir/cw2_autogen/mocs_compilation.cpp.o: /usr/include/qt5/QtWidgets/qtabbar.h
@@ -853,10 +856,12 @@ CMakeFiles/cw2.dir/tomeo.cpp.o: /usr/include/qt5/QtWidgets/QHBoxLayout
 CMakeFiles/cw2.dir/tomeo.cpp.o: /usr/include/qt5/QtWidgets/QLineEdit
 CMakeFiles/cw2.dir/tomeo.cpp.o: /usr/include/qt5/QtWidgets/QMainWindow
 CMakeFiles/cw2.dir/tomeo.cpp.o: /usr/include/qt5/QtWidgets/QPushButton
+CMakeFiles/cw2.dir/tomeo.cpp.o: /usr/include/qt5/QtWidgets/QScrollArea
 CMakeFiles/cw2.dir/tomeo.cpp.o: /usr/include/qt5/QtWidgets/QStackedWidget
 CMakeFiles/cw2.dir/tomeo.cpp.o: /usr/include/qt5/QtWidgets/QTabBar
 CMakeFiles/cw2.dir/tomeo.cpp.o: /usr/include/qt5/QtWidgets/QTabWidget
 CMakeFiles/cw2.dir/tomeo.cpp.o: /usr/include/qt5/QtWidgets/qabstractbutton.h
+CMakeFiles/cw2.dir/tomeo.cpp.o: /usr/include/qt5/QtWidgets/qabstractscrollarea.h
 CMakeFiles/cw2.dir/tomeo.cpp.o: /usr/include/qt5/QtWidgets/qapplication.h
 CMakeFiles/cw2.dir/tomeo.cpp.o: /usr/include/qt5/QtWidgets/qboxlayout.h
 CMakeFiles/cw2.dir/tomeo.cpp.o: /usr/include/qt5/QtWidgets/qdesktopwidget.h
@@ -868,6 +873,7 @@ CMakeFiles/cw2.dir/tomeo.cpp.o: /usr/include/qt5/QtWidgets/qlayoutitem.h
 CMakeFiles/cw2.dir/tomeo.cpp.o: /usr/include/qt5/QtWidgets/qlineedit.h
 CMakeFiles/cw2.dir/tomeo.cpp.o: /usr/include/qt5/QtWidgets/qmainwindow.h
 CMakeFiles/cw2.dir/tomeo.cpp.o: /usr/include/qt5/QtWidgets/qpushbutton.h
+CMakeFiles/cw2.dir/tomeo.cpp.o: /usr/include/qt5/QtWidgets/qscrollarea.h
 CMakeFiles/cw2.dir/tomeo.cpp.o: /usr/include/qt5/QtWidgets/qsizepolicy.h
 CMakeFiles/cw2.dir/tomeo.cpp.o: /usr/include/qt5/QtWidgets/qstackedwidget.h
 CMakeFiles/cw2.dir/tomeo.cpp.o: /usr/include/qt5/QtWidgets/qtabbar.h
